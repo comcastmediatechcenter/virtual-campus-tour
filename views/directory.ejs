@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Directory</title>
+  </head>
+  <body>
+    <h1>Locations:</h1>
+    <ul>
+      <% locations.forEach(function(location){ %>
+        <li><a href="<%= location.url %>"><%= location.name %></a> <br></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>

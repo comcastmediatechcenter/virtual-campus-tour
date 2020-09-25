@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Panolense Test</title>
+    <style>
+      html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: #000;
+      }
+
+      a:link, a:visited{
+        color: #bdc3c7;
+      }
+
+      .credit{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="credit">
+      Header thing
+    </div>
+
+    <div id="popup1" style="display:none; width:20%;" class="w3-card-4 w3-white">
+      <header class="w3-container w3-blue">
+        <h1>Header</h1>
+      </header>
+      <div class="w3-container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <footer class="w3-container w3-blue"> Footer </footer>
+    </div>
+
+    <script src="./js/three.min.js"></script>
+    <script src="./js/panolens.min.js"></script>
+    <script>
+      const panorama = new PANOLENS.ImagePanorama('./loc/abandoned_factory_canteen_01.jpg');
+
+      //var is1 = new PANOLENS.Infospot(300, PANOLENS.DataImage.Info);
+      //is1.position.set(-5000.00, -1825.25, 197.56);
+      //is1.addHoverElement( document.getElementById('popup1'), 200);
+      //panorama.add(is1);
+      var axis = [
+                  [1000, 0, 0],
+                  [0, 1000, 0],
+                  [0, 0, 1000],
+                  [-1000, 0, 0],
+                  [0, -1000, 0],
+                  [0, 0, -1000],
+                ];
+      for(var i = 0; i < axis.length; i++){
+        var is = new PANOLENS.Infospot(50, PANOLENS.DataImage.Info);
+        is.position.set(axis[i][0], axis[i][1], axis[i][2]);
+        is.addHoverText("(X, Y, Z): (" + axis[i][0] + "," + axis[i][1] + "," + axis[i][2] + ")");
+        panorama.add(is);
+      }
+
+      const viewer = new PANOLENS.Viewer({output: 'console'});
+      viewer.add(panorama);
+    </script>
+    <div class="panolens-container" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); cursor: default;">
+      <canvas class="panolens-canvas" style="width: 100%; height: 100%; display: block;"></canvas>
+    </div>
+
+  </body>
+</html>

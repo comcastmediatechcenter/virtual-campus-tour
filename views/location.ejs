@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Location</title>
+    <style>
+      html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: #000;
+      }
+
+      .tooltip {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: 200px;
+        min-height: 250px;
+        background: #fff;
+        color: #000;
+        border-radius: 3px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+  </head>
+  <body>
+    <% location.tooltips.forEach(function(tt, i){ %>
+      <div id="tt<%= i %>" style="display:none" class="tooltip w3-card-4">
+        <header class="w3-blue">
+          <h1><%= tt.header %></h1>
+        </header>
+        <%= tt.body %>
+      </div>
+    <% }) %>
+    <div class="w3-display-container">
+      <div class="w3-display-topmiddle w3-white w3-container">
+        <a href="/">Home</a>
+      </div>
+      <script src="./js/three.min.js"></script>
+      <script src="./js/panolens.min.js"></script>
+      <script>
+        const panorama = new PANOLENS.ImagePanorama('<%= location.image %>');
+
+        <% location.tooltips.forEach(function(tt, i){ %>
+          var is = new PANOLENS.Infospot(300, PANOLENS.DataImage.Info);
+          is.position.set(<%= tt.pos[0] %>, <%= tt.pos[1] %>, <%= tt.pos[2] %>);
+          is.addHoverElement( document.getElementById('tt<%= i %>'), 200);
+          panorama.add(is);
+        <% }) %>
+
+        <% location.paths.forEach(function(path){ %>
+          var is = new PANOLENS.Infospot(300, PANOLENS.DataImage.Arrow);
+          is.position.set(<%= path.pos[0] %>, <%= path.pos[1] %>, <%= path.pos[2] %>);
+          is.addHoverText("<%= path.label %>");
+          is.addEventListener("click", function(){ window.location.href = "<%= path.dest %>"});
+          panorama.add(is);
+        <% }) %>
+
+        const viewer = new PANOLENS.Viewer({output: 'console'});
+        viewer.add(panorama);
+      </script>
+      <div class="panolens-container w3-display-middle" style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); cursor: default;">
+        <canvas class="panolens-canvas" style="width: 100%; height: 100%; display: block;"></canvas>
+      </div>
+    </div>
+  </body>
+</html>
