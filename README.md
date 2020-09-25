@@ -1,7 +1,7 @@
 # Virtual Campus Tour
 A guided tour of campus with 360 degree photos and info spots about different locations. Using [https://github.com/pchen66/panolens.js](Panolens.js) to render the photos and [https://www.w3schools.com/w3css/](W3Css) to handle the majority of the stylesheets.
 ## Development installation
-Clone the repository, run `npm install`, and then run `npm start` or `node index.js`.
+[https://nodejs.org/en/](Install NodeJS), clone the repository, run `npm install`, and then run `npm start` or `node index.js`. The server will be running at `http://localhost:5678`, and can be accessed on other devices by using the host machines IP in place of `localhost`.
 ## Project Overview
 When started, the contents of `locations.json` is read and corresponding pages are created. New ones can be added and removed by appending or deleting from the file. The following is a brief description of what each variable does in relation to the output.
  - `name`: The title of the page
