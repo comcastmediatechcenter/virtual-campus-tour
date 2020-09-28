@@ -14,49 +14,63 @@
       }
 
       .tooltip {
-        max-width: 400px;
+        max-width: 300px;
         max-height: 400px;
         min-width: 200px;
         min-height: 250px;
         background: #fff;
         color: #000;
+        border-style: solid;
+        border-color: #cfb87c;
         border-radius: 3px;
         overflow: auto;
         -webkit-overflow-scrolling: touch;
+      }
+      .tooltip-header{
+        padding-top: 0;
+        width:auto;
+        background: #cfb87c;
+        text-align: left;
       }
     </style>
   </head>
   <body>
     <% location.tooltips.forEach(function(tt, i){ %>
-      <div id="tt<%= i %>" style="display:none" class="tooltip w3-card-4">
-        <header class="w3-blue">
+      <div id="tt<%= i %>" style="display:none" class="tooltip">
+        <header class="tooltip-header">
           <h1><%= tt.header %></h1>
         </header>
         <%= tt.body %>
       </div>
     <% }) %>
     <div class="w3-display-container">
-      <div class="w3-display-topmiddle w3-white w3-container">
-        <a href="/">Home</a>
-      </div>
+      <img src="img/home.png" alt="" class="w3-display-topleft w3-padding-small w3-image" onclick="window.location.href = '/'; " style="max-width:40%;">
+      <img src="img/logo.png" alt="" class="w3-display-topright w3-padding-small w3-image" onclick="window.location.href = '#'; " style="max-width:40%;">
       <script src="./js/three.min.js"></script>
       <script src="./js/panolens.min.js"></script>
       <script>
         const panorama = new PANOLENS.ImagePanorama('<%= location.image %>');
-
+        var textureLoader = new THREE.TextureLoader();
+        //var texture = textureLoader.load(url, function(){
+        //  var infospot = new PANOLENS.Infospot('scale','url');
+        //});
         <% location.tooltips.forEach(function(tt, i){ %>
-          var is = new PANOLENS.Infospot(300, PANOLENS.DataImage.Info);
-          is.position.set(<%= tt.pos[0] %>, <%= tt.pos[1] %>, <%= tt.pos[2] %>);
-          is.addHoverElement( document.getElementById('tt<%= i %>'), 200);
-          panorama.add(is);
-        <% }) %>
+          textureLoader.load("/img/info.png", function(){
+            var is = new PANOLENS.Infospot(300, "/img/info.png", true);
+            is.position.set(<%= tt.pos[0] %>, <%= tt.pos[1] %>, <%= tt.pos[2] %>);
+            is.addHoverElement( document.getElementById('tt<%= i %>'), 200);
+            panorama.add(is);
+          });
+        <% }); %>
 
         <% location.paths.forEach(function(path){ %>
-          var is = new PANOLENS.Infospot(300, PANOLENS.DataImage.Arrow);
-          is.position.set(<%= path.pos[0] %>, <%= path.pos[1] %>, <%= path.pos[2] %>);
-          is.addHoverText("<%= path.label %>");
-          is.addEventListener("click", function(){ window.location.href = "<%= path.dest %>"});
-          panorama.add(is);
+          textureLoader.load("/img/arrow.png", function(){
+            var is = new PANOLENS.Infospot(300, "/img/arrow.png");
+            is.position.set(<%= path.pos[0] %>, <%= path.pos[1] %>, <%= path.pos[2] %>);
+            is.addHoverText("<%= path.label %>");
+            is.addEventListener("click", function(){ window.location.href = "<%= path.dest %>"});
+            panorama.add(is);
+          });
         <% }) %>
 
         const viewer = new PANOLENS.Viewer({output: 'console'});
