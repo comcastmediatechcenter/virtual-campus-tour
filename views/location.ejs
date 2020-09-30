@@ -44,8 +44,8 @@
       </div>
     <% }) %>
     <div class="w3-display-container">
-      <img src="img/home.png" alt="" class="w3-display-topleft w3-padding-small w3-image" onclick="window.location.href = '/'; " style="max-width:40%;">
-      <img src="img/logo.png" alt="" class="w3-display-topright w3-padding-small w3-image" onclick="window.location.href = '#'; " style="max-width:40%;">
+      <img src="img/ui/home.png" alt="" class="w3-display-topleft w3-padding-small w3-image" onclick="window.location.href = '/'; " style="max-width:40%;">
+      <img src="img/ui/logo.png" alt="" class="w3-display-topright w3-padding-small w3-image" onclick="window.location.href = '#'; " style="max-width:40%;">
       <script src="./js/three.min.js"></script>
       <script src="./js/panolens.min.js"></script>
       <script>
@@ -55,8 +55,8 @@
         //  var infospot = new PANOLENS.Infospot('scale','url');
         //});
         <% location.tooltips.forEach(function(tt, i){ %>
-          textureLoader.load("/img/info.png", function(){
-            var is = new PANOLENS.Infospot(300, "/img/info.png", true);
+          textureLoader.load("/img/ui/info.png", function(){
+            var is = new PANOLENS.Infospot(300, "/img/ui/info.png", true);
             is.position.set(<%= tt.pos[0] %>, <%= tt.pos[1] %>, <%= tt.pos[2] %>);
             is.addHoverElement( document.getElementById('tt<%= i %>'), 200);
             panorama.add(is);
@@ -64,8 +64,8 @@
         <% }); %>
 
         <% location.paths.forEach(function(path){ %>
-          textureLoader.load("/img/arrow.png", function(){
-            var is = new PANOLENS.Infospot(300, "/img/arrow.png");
+          textureLoader.load("/img/ui/arrow.png", function(){
+            var is = new PANOLENS.Infospot(300, "/img/ui/arrow.png");
             is.position.set(<%= path.pos[0] %>, <%= path.pos[1] %>, <%= path.pos[2] %>);
             is.addHoverText("<%= path.label %>");
             is.addEventListener("click", function(){ window.location.href = "<%= path.dest %>"});

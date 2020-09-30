@@ -1,0 +1,76 @@
+{
+  "locations": [
+    {
+      "name": "Canteen",
+      "url": "/canteen",
+      "image": "img/room.jpg",
+      "tooltips": [
+        {
+          "header": "Sweet Mural",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "pos": [2016.56, -1049.25, 4447.92]
+        },
+        {
+          "header": "Another Sweet Mural",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "pos": [4717.82, -732.23, 1470.18]
+        }
+      ],
+      "paths": [
+        {
+          "label": "To Lab",
+          "dest": "/lab",
+          "pos": [-4490.38, -173.83, 2170.46]
+        },
+        {
+          "label": "To Aero",
+          "dest": "/aero",
+          "pos": [3228.72, -162.64, -3802.21]
+        }
+      ]
+    },
+    {
+      "name": "Aerodynamics",
+      "url": "/aero",
+      "image": "img/yard.jpg",
+      "tooltips": [
+        {
+          "header": "Crazy Looking Machine",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "pos": [-3031.09, -178.68, 3961.43]
+        }
+      ],
+      "paths": [
+        {
+          "label": "To Lab",
+          "dest": "/lab",
+          "pos": [1873.65, -5.57, 4628.92]
+        }
+      ]
+    },
+    {
+      "name": "Lab",
+      "url": "/lab",
+      "image": "img/vintage_measuring_lab.jpg",
+      "tooltips": [
+        {
+          "header": "Dope Lunch Spot",
+          "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "pos": [189.62, -644.04, 4944.85]
+        }
+      ],
+      "paths": [
+        {
+          "label": "To Aerodynamics Facility",
+          "dest": "/aero",
+          "pos": [-1600.33, 1207.68, -4574.10]
+        },
+        {
+          "label": "To Canteen",
+          "dest": "/canteen",
+          "pos": [-1047.93, -334.97, -4874.89]
+        }
+      ]
+    }
+  ]
+}
