@@ -11,9 +11,9 @@ locations.forEach(function(location){
   });
 });
 
-
 app.get("/", function(req, res){
-  res.render("directory.ejs", {locations: locations});
+  var pins = require("./pins.json");
+  res.render("directory.ejs", {locations: locations, pins: pins});
 });
 
 app.listen(5678, function(){ console.log("Started on port 5678"); });

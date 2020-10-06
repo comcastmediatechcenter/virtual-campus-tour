@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Civil Engineering Lab",
+    "number": 6,
+    "dest": "/civil1",
+    "left": 52,
+    "top": 55
+  },
+  {
+    "name": "Lawrence Computer Lab",
+    "number": 16,
+    "dest": "/lawrence-labs",
+    "left": 65,
+    "top": 45
+  },
+  {
+    "name": "Magnetics Lab",
+    "number": 19,
+    "dest": "/maglab1",
+    "left": 55,
+    "top": 95
+  },
+  {
+    "name": "SMAB Lab",
+    "number": 30,
+    "dest": "/smab1",
+    "left": 55,
+    "top": 55
+  },
+  {
+    "name": "CIDE",
+    "number": 5,
+    "dest": "/cide",
+    "left": 35,
+    "top": 80
+  },
+  {
+    "name": "CMTC",
+    "number": 10,
+    "dest": "/cmtc",
+    "left": 43,
+    "top": 53
+  },
+  {
+    "name": "INWORKS Denver",
+    "number": 11,
+    "dest": "/inworks1",
+    "left": 65,
+    "top": 40
+  },
+  {
+    "name": "Lockheed Martin Materials Lab",
+    "number": 17,
+    "dest": "/metal-am",
+    "left": 52,
+    "top": 58
+  }
+]

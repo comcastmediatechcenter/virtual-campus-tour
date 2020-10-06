@@ -4,7 +4,18 @@
       "name": "Boulder Creek Building",
       "url": "/boulder",
       "image": "img/locations/boulder_1.JPG",
-      "tooltips": [],
+      "tooltips": [
+        {
+          "header": "Ryan",
+          "body": "<h1> Woah </h1>",
+          "pos": [-659.32, -636.21, 4906.19]
+        },
+        {
+          "header": "Two guys",
+          "body": "Theyre delievering things. Look at them",
+          "pos": [-4454.77, -231.33, -2235.39]
+        }
+      ],
       "paths": [
         {
           "label": "To Auraria Center",
@@ -100,6 +111,11 @@
           "label": "To Civil Engineering Lab 4",
           "dest": "/civil4",
           "pos": [-4223.69, -520.06, 2607.90]
+        },
+        {
+          "label": "To Civil Engineering Lab 2",
+          "dest": "/civil2",
+          "pos": [255.51, -692.72, 4935.64]
         },
         {
           "label": "To North 1800 Hallway",
@@ -407,7 +423,7 @@
       "paths": [
         {
           "label": "To North Hallway",
-          "dest": "/north-labs",
+          "dest": "/n1200",
           "pos": [4992.47, -93.45, -73.53]
         },
         {
@@ -470,8 +486,8 @@
       "tooltips": [],
       "paths": [
         {
-          "label": "To North 2200 Hallway",
-          "dest": "/n2200",
+          "label": "To SMAB Lab",
+          "dest": "/smab1",
           "pos": [4981.28, -224.46, 188.88]
         },
         {
@@ -529,8 +545,8 @@
       "tooltips": [],
       "paths": [
         {
-          "label": "To North 2200 Hallway",
-          "dest": "/n2200",
+          "label": "To North 2200 Stairway",
+          "dest": "/n2200s",
           "pos": [4948.88, -464.95, -517.29]
         },
         {
@@ -660,6 +676,11 @@
           "label": "To Spruce Parking",
           "dest": "/spruce",
           "pos": [4972.16, -63.04, -484.01]
+        },
+        {
+          "label": "To Auraria Center",
+          "dest": "/center",
+          "pos": [-249.31, 59.96, 4984.58]
         }
       ]
     }
