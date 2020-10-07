@@ -54,5 +54,26 @@
     "dest": "/metal-am",
     "left": 52,
     "top": 58
+  },
+  {
+    "name": "Campus Center",
+    "number": 4,
+    "dest": "/center",
+    "left": 49,
+    "top": 66
+  },
+  {
+    "name": "North Classroom Atrium",
+    "number": 22,
+    "dest": "/north-outside",
+    "left": 55,
+    "top": 60
+  },
+  {
+    "name": "Tivoli Square",
+    "number": 36,
+    "dest": "/tiv-square",
+    "left": 47,
+    "top": 57
   }
 ]

@@ -18,7 +18,7 @@
       ],
       "paths": [
         {
-          "label": "To Auraria Center",
+          "label": "To Campus Center ",
           "dest": "/center",
           "pos": [-3438.43, -86.01, -3618.17]
         },
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "Auraria Center",
+      "name": "Campus Center ",
       "url": "/center",
       "image": "img/locations/center_1.JPG",
       "tooltips": [],
@@ -305,13 +305,13 @@
       ]
     },
     {
-      "name": "Lockheed Metal AM",
+      "name": "Additive Manufacturing Lab (Metal)",
       "url": "/metal-am",
       "image": "img/locations/lockheedAM_metal_2.JPG",
       "tooltips": [],
       "paths": [
         {
-          "label": "To Lockheed Plastic AM",
+          "label": "To Additive Manufacturing Lab (Plastic)",
           "dest": "/plastic-am",
           "pos": [3919.60, -327.69, 3073.45]
         },
@@ -323,13 +323,13 @@
       ]
     },
     {
-      "name": "Lockheed Plastic AM",
+      "name": "Additive Manufacturing Lab (Plastic)",
       "url": "/plastic-am",
       "image": "img/locations/lockheedAM_plastic_2.JPG",
       "tooltips": [],
       "paths": [
         {
-          "label": "To Lockheed Metal AM",
+          "label": "To Additive Manufacturing Lab (Metal)",
           "dest": "/metal-am",
           "pos": [4696.04, -805.06, -1511.10]
         },
@@ -378,7 +378,7 @@
       "tooltips": [],
       "paths": [
         {
-          "label": "To North 1200 Hallway",
+          "label": "To North Classroom Atrium",
           "dest": "/n1200",
           "pos": [-4725.23, -478.96, 1551.85]
         }
@@ -394,11 +394,16 @@
           "label": "To North 1200 Stairway",
           "dest": "/n1200s",
           "pos": [1351.58, 77.52, 4803.98]
+        },
+        {
+          "label": "To Campus Center",
+          "dest": "/center",
+          "pos": [-4937.53, -5.49, 742.77]
         }
       ]
     },
     {
-      "name": "North 1200 Hallway",
+      "name": "North Classroom Atrium",
       "url": "/n1200",
       "image": "img/locations/north1200_2.JPG",
       "tooltips": [],
@@ -678,7 +683,7 @@
           "pos": [4972.16, -63.04, -484.01]
         },
         {
-          "label": "To Auraria Center",
+          "label": "To Campus Center ",
           "dest": "/center",
           "pos": [-249.31, 59.96, 4984.58]
         }
