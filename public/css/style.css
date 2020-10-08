@@ -1,0 +1,19 @@
+.tooltip {
+  max-width: 500px;
+  max-height: 600px;
+  min-width: 200px;
+  min-height: 250px;
+  background: #fff;
+  color: #000;
+  border-style: solid;
+  border-color: #cfb87c;
+  border-radius: 3px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.tooltip-header{
+  padding-top: 0;
+  width:auto;
+  background: #cfb87c;
+  text-align: left;
+}

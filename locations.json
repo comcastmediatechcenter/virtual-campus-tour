@@ -397,7 +397,7 @@
       "tooltips": [],
       "paths": [
         {
-          "label": "To North 1200 Stairway",
+          "label": "To North Atrium",
           "dest": "/n1200s",
           "pos": [1351.58, 77.52, 4803.98]
         },
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "name": "North Classroom Atrium",
+      "name": "North 1200 Hallway",
       "url": "/n1200",
       "image": "img/locations/north1200_2.JPG",
       "tooltips": [],
@@ -420,20 +420,20 @@
           "pos": [-959.55, -835.00, 4830.54]
         },
         {
-          "label": "To North 1200 Stairway",
+          "label": "To North Atrium",
           "dest": "/n1200s",
           "pos": [4976.42, -78.80, 390.94]
         }
       ]
     },
     {
-      "name": "North 1200 Stairway",
+      "name": "North Classroom Atrium",
       "url": "/n1200s",
       "image": "img/locations/north1200_stairs_1.JPG",
       "tooltips": [],
       "paths": [
         {
-          "label": "To North Hallway",
+          "label": "To North 1200 Hallway",
           "dest": "/n1200",
           "pos": [4992.47, -93.45, -73.53]
         },
@@ -446,6 +446,11 @@
           "label": "To North 2200 Stairway",
           "dest": "/n2200s",
           "pos": [-2014.57, 18.32, 4574.30]
+        },
+        {
+          "label": "To North Exterior",
+          "dest": "/north-outside",
+          "pos": [-4968.24, -366.65, 331.10]
         }
       ]
     },
@@ -641,6 +646,16 @@
           "label": "To Tivoli Quad",
           "dest": "/tiv-quad",
           "pos": [-4976.00, 209.75, 300.67]
+        },
+        {
+          "label": "To CIDE",
+          "dest": "/cide",
+          "pos": [4990.83, 34.00, -149.41]
+        },
+        {
+          "label": "To Tivoli Square",
+          "dest": "/tiv-square",
+          "pos": [-4258.38, 157.27, 2599.15]
         }
       ]
     },
