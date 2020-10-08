@@ -196,6 +196,9 @@ locations:
   - label: To INWORKS 4
     dest: "/inworks4"
     pos: "-1837.36, -243.02, -4632.88"
+  - label: To Tivoli Square
+    dest: /tiv-square
+    pos: -120.74, -216.87, 4985.15
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -352,6 +355,9 @@ locations:
   - label: To Campus Center
     dest: "/center"
     pos: "-4937.53, -5.49, 742.77"
+  - label: To Speer
+    dest: /speer
+    pos: 4930.55, 0.20, -788.16
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -403,9 +409,9 @@ locations:
     dest: "/n1800s"
     pos: 89.34, -160.05, -4989.03
   - label: To Civil Engineering Lab
-    dest: "/n1200s"
+    dest: "/civil1"
     pos: "-1961.64, -452.44, -4571.28"
-  - label: To AM Lab
+  - label: To Additive Manufacturing Lab
     dest: "/metal-am"
     pos: "-1541.88, -271.19, 4745.11"
 
@@ -456,6 +462,9 @@ locations:
   - label: to CEDC Lab
     dest: "/cedc-lab"
     pos: 244.09, -494.92, 4959.65
+  - label: to CEDC Lounge
+    dest: "/cedc-lounge"
+    pos: 4925.87, -305.24, 741.17
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -598,3 +607,6 @@ locations:
   - label: 'To Campus Center '
     dest: "/center"
     pos: "-249.31, 59.96, 4984.58"
+  - label: To INWORKS Denver
+    dest: "/inworks1"
+    pos: "-4992.00, 168.76, -26.14"
