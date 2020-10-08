@@ -31,7 +31,7 @@
     </script>
   </head>
   <body>
-    <% location.tooltips.forEach(function(tt, i){ %>
+    <% if(location.tooltips != null) location.tooltips.forEach(function(tt, i){ %>
       <div id="tt<%= i %>" style="display:none" class="tooltip">
         <header class="tooltip-header">
           <h1><%= tt.header %></h1>
@@ -52,19 +52,19 @@
         //var texture = textureLoader.load(url, function(){
         //  var infospot = new PANOLENS.Infospot('scale','url');
         //});
-        <% location.tooltips.forEach(function(tt, i){ %>
+        <% if(location.tooltips != null) location.tooltips.forEach(function(tt, i){ %>
           textureLoader.load("/img/ui/info.png", function(){
             var is = new PANOLENS.Infospot(300, "/img/ui/info.png", true);
-            is.position.set(<%= tt.pos[0] %>, <%= tt.pos[1] %>, <%= tt.pos[2] %>);
+            is.position.set(<%= tt.pos %>);
             is.addHoverElement( document.getElementById('tt<%= i %>'), 200);
             panorama.add(is);
           });
         <% }); %>
 
-        <% location.paths.forEach(function(path){ %>
+        <% if(location.paths != null) location.paths.forEach(function(path){ %>
           textureLoader.load("/img/ui/arrow.png", function(){
             var is = new PANOLENS.Infospot(300, "/img/ui/arrow.png");
-            is.position.set(<%= path.pos[0] %>, <%= path.pos[1] %>, <%= path.pos[2] %>);
+            is.position.set(<%= path.pos %>);
             is.addHoverText("<%= path.label %>");
             is.addEventListener("click", function(){ window.location.href = "<%= path.dest %>"});
             panorama.add(is);

@@ -8,24 +8,24 @@
         {
           "header": "Ryan",
           "body": "<h1> Woah </h1>",
-          "pos": [-659.32, -636.21, 4906.19]
+          "pos": "-659.32, -636.21, 4906.19"
         },
         {
           "header": "Two guys",
           "body": "Theyre delievering things. Look at them",
-          "pos": [-4454.77, -231.33, -2235.39]
+          "pos": "-4454.77, -231.33, -2235.39"
         }
       ],
       "paths": [
         {
           "label": "To Campus Center ",
           "dest": "/center",
-          "pos": [-3438.43, -86.01, -3618.17]
+          "pos": "-3438.43, -86.01, -3618.17"
         },
         {
           "label": "To Magnetics Lab",
           "dest": "/maglab1",
-          "pos": [3758.77, -220.49, -3278.75]
+          "pos": "3758.77, -220.49, -3278.75"
         }
       ]
     },
@@ -38,12 +38,12 @@
         {
           "label": "To North 2600 Hallway",
           "dest": "/n2600",
-          "pos": [-2534.89, -784.64, -4233.58]
+          "pos": "-2534.89, -784.64, -4233.58"
         },
         {
           "label": "To CEDC Lounge",
           "dest": "/cedc-lounge",
-          "pos": [3102.40, -377.95, -3893.63]
+          "pos": "3102.40, -377.95, -3893.63"
         }
       ]
     },
@@ -56,12 +56,12 @@
         {
           "label": "To North 2600 Hallway",
           "dest": "/n2600",
-          "pos": [-2841.10, -278.77, 4095.57]
+          "pos": "-2841.10, -278.77, 4095.57"
         },
         {
           "label": "To CEDC Lab",
           "dest": "/cedc-lab",
-          "pos": [1386.27, -133.54, 4792.41]
+          "pos": "1386.27, -133.54, 4792.41"
         }
       ]
     },
@@ -74,17 +74,17 @@
         {
           "label": "To North Building Exterior",
           "dest": "/north-outside",
-          "pos": [-4578.25, -28.76, -2003.13]
+          "pos": "-4578.25, -28.76, -2003.13"
         },
         {
           "label": "To Tivoli Square",
           "dest": "/tiv-square",
-          "pos": [2084.11, -70.63, -4538.92]
+          "pos": "2084.11, -70.63, -4538.92"
         },
         {
           "label": "To Boulder Creek Building",
           "dest": "/boulder",
-          "pos": [-2032.51, 77.62, 4564.91]
+          "pos": "-2032.51, 77.62, 4564.91"
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "label": "To Spruce Parking Lot",
           "dest": "/spruce",
-          "pos": [4963.84, -389.59, -397.96]
+          "pos": "4963.84, -389.59, -397.96"
         }
       ]
     },
@@ -110,17 +110,17 @@
         {
           "label": "To Civil Engineering Lab 4",
           "dest": "/civil4",
-          "pos": [-4223.69, -520.06, 2607.90]
+          "pos": "-4223.69, -520.06, 2607.90"
         },
         {
           "label": "To Civil Engineering Lab 2",
           "dest": "/civil2",
-          "pos": [255.51, -692.72, 4935.64]
+          "pos": "255.51, -692.72, 4935.64"
         },
         {
           "label": "To North 1800 Hallway",
           "dest": "/n1800",
-          "pos": [-171.86, -789.35, -4928.01]
+          "pos": "-171.86, -789.35, -4928.01"
         }
       ]
     },
@@ -133,17 +133,17 @@
         {
           "label": "To Civil Engineering Lab 4",
           "dest": "/civil4",
-          "pos": [-3140.97, -453.35, -3852.38]
+          "pos": "-3140.97, -453.35, -3852.38"
         },
         {
           "label": "To Civil Engineering Lab 1",
           "dest": "/civil1",
-          "pos": [166.09, -352.43, -4977.45]
+          "pos": "166.09, -352.43, -4977.45"
         },
         {
           "label": "To Civil Engineering Lab 3",
           "dest": "/civil3",
-          "pos": [-633.80, -963.30, 4856.34]
+          "pos": "-633.80, -963.30, 4856.34"
         }
       ]
     },
@@ -156,7 +156,7 @@
         {
           "label": "To Civil Engineering Lab 2",
           "dest": "/civil2",
-          "pos": [1794.32, -619.15, -4614.40]
+          "pos": "1794.32, -619.15, -4614.40"
         }
       ]
     },
@@ -169,12 +169,12 @@
         {
           "label": "To Civil Engineering Lab 2",
           "dest": "/civil2",
-          "pos": [4138.58, -490.88, -2745.30]
+          "pos": "4138.58, -490.88, -2745.30"
         },
         {
           "label": "To Civil Engineering Lab 1",
           "dest": "/civil1",
-          "pos": [468.02, -667.26, -4927.51]
+          "pos": "468.02, -667.26, -4927.51"
         }
       ]
     },
@@ -187,17 +187,17 @@
         {
           "label": "To Tivoli Quad",
           "dest": "/tiv-quad",
-          "pos": [-4660.30, -296.64, -1760.05]
+          "pos": "-4660.30, -296.64, -1760.05"
         },
         {
           "label": "To Tivoli Square",
           "dest": "/tiv-square",
-          "pos": [-4860.04, -290.42, -1110.08]
+          "pos": "-4860.04, -290.42, -1110.08"
         },
         {
           "label": "To Spruce Parking Lot",
           "dest": "/spruce",
-          "pos": [4159.67, -522.44, -2705.97]
+          "pos": "4159.67, -522.44, -2705.97"
         }
       ]
     },
@@ -209,29 +209,29 @@
         {
           "header": "INWORKS Denver",
           "body": "<iframe style='width:100%;' src='https://www.youtube.com/embed/1vz1wpdOXr8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
-          "pos": [-4568.29, -1431.57, 1422.25]
+          "pos": "-4568.29, -1431.57, 1422.25"
         }
       ],
       "paths": [
         {
           "label": "To Lawrence Street",
           "dest": "/lawrence-street",
-          "pos": [-4946.05, -497.89, -496.76]
+          "pos": "-4946.05, -497.89, -496.76"
         },
         {
           "label": "To INWORKS 2",
           "dest": "/inworks2",
-          "pos": [1265.87, -372.71, -4814.96]
+          "pos": "1265.87, -372.71, -4814.96"
         },
         {
           "label": "To INWORKS 3",
           "dest": "/inworks3",
-          "pos": [-300.29, -190.76, -4976.77]
+          "pos": "-300.29, -190.76, -4976.77"
         },
         {
           "label": "To INWORKS 4",
           "dest": "/inworks4",
-          "pos": [-1837.36, -243.02, -4632.88]
+          "pos": "-1837.36, -243.02, -4632.88"
         }
       ]
     },
@@ -244,7 +244,7 @@
         {
           "label": "To INWORKS 1",
           "dest": "/inworks1",
-          "pos": [-4720.13, -540.49, -1544.83]
+          "pos": "-4720.13, -540.49, -1544.83"
         }
       ]
     },
@@ -257,7 +257,7 @@
         {
           "label": "To INWORKS 1",
           "dest": "/inworks1",
-          "pos": [-3910.76, -426.80, -3073.87]
+          "pos": "-3910.76, -426.80, -3073.87"
         }
       ]
     },
@@ -270,7 +270,7 @@
         {
           "label": "To INWORKS 1",
           "dest": "/inworks1",
-          "pos": [-4049.14, -736.38, 2829.75]
+          "pos": "-4049.14, -736.38, 2829.75"
         }
       ]
     },
@@ -283,17 +283,17 @@
         {
           "label": "To Lawrence Street Labs",
           "dest": "/lawrence-labs",
-          "pos": [-2465.65, -74.82, -4344.33]
+          "pos": "-2465.65, -74.82, -4344.33"
         },
         {
           "label": "To INWORKS",
           "dest": "/inworks1",
-          "pos": [4734.09, -63.48, 1593.34]
+          "pos": "4734.09, -63.48, 1593.34"
         },
         {
           "label": "To Speer",
           "dest": "/speer",
-          "pos": [-4972.42, -86.45, -461.37]
+          "pos": "-4972.42, -86.45, -461.37"
         }
       ]
     },
@@ -306,7 +306,7 @@
         {
           "label": "To Lawrence Street",
           "dest": "/lawrence-street",
-          "pos": [-951.09, -382.86, 4889.54]
+          "pos": "-951.09, -382.86, 4889.54"
         }
       ]
     },
@@ -319,12 +319,12 @@
         {
           "label": "To Additive Manufacturing Lab (Plastic)",
           "dest": "/plastic-am",
-          "pos": [3919.60, -327.69, 3073.45]
+          "pos": "3919.60, -327.69, 3073.45"
         },
         {
           "label": "To North 1800 Hallway",
           "dest": "/n1800",
-          "pos": [4636.39, -400.94, 1809.02]
+          "pos": "4636.39, -400.94, 1809.02"
         }
       ]
     },
@@ -337,12 +337,12 @@
         {
           "label": "To Additive Manufacturing Lab (Metal)",
           "dest": "/metal-am",
-          "pos": [4696.04, -805.06, -1511.10]
+          "pos": "4696.04, -805.06, -1511.10"
         },
         {
           "label": "To North 1800 Hallway",
           "dest": "/n1800",
-          "pos": [4983.42, -236.73, -138.92]
+          "pos": "4983.42, -236.73, -138.92"
         }
       ]
     },
@@ -355,12 +355,12 @@
         {
           "label": "To Boulder Creek Building",
           "dest": "/boulder",
-          "pos": [3577.08, -552.01, -3435.84]
+          "pos": "3577.08, -552.01, -3435.84"
         },
         {
           "label": "To Magnetics Lab 2",
           "dest": "/maglab2",
-          "pos": [-4928.98, -643.45, 493.88]
+          "pos": "-4928.98, -643.45, 493.88"
         }
       ]
     },
@@ -373,7 +373,7 @@
         {
           "label": "To Magnetics Lab 1",
           "dest": "/maglab1",
-          "pos": [4125.00, -461.69, -2772.55]
+          "pos": "4125.00, -461.69, -2772.55"
         }
       ]
     },
@@ -386,7 +386,7 @@
         {
           "label": "To North Classroom Atrium",
           "dest": "/n1200",
-          "pos": [-4725.23, -478.96, 1551.85]
+          "pos": "-4725.23, -478.96, 1551.85"
         }
       ]
     },
@@ -399,12 +399,12 @@
         {
           "label": "To North Atrium",
           "dest": "/n1200s",
-          "pos": [1351.58, 77.52, 4803.98]
+          "pos": "1351.58, 77.52, 4803.98"
         },
         {
           "label": "To Campus Center",
           "dest": "/center",
-          "pos": [-4937.53, -5.49, 742.77]
+          "pos": "-4937.53, -5.49, 742.77"
         }
       ]
     },
@@ -417,12 +417,12 @@
         {
           "label": "To North Computer Lab",
           "dest": "/north-labs",
-          "pos": [-959.55, -835.00, 4830.54]
+          "pos": "-959.55, -835.00, 4830.54"
         },
         {
           "label": "To North Atrium",
           "dest": "/n1200s",
-          "pos": [4976.42, -78.80, 390.94]
+          "pos": "4976.42, -78.80, 390.94"
         }
       ]
     },
@@ -435,22 +435,22 @@
         {
           "label": "To North 1200 Hallway",
           "dest": "/n1200",
-          "pos": [4992.47, -93.45, -73.53]
+          "pos": "4992.47, -93.45, -73.53"
         },
         {
           "label": "To North 1800 Stairway",
           "dest": "/n1800s",
-          "pos": [11.72, 2.99, 4999.27]
+          "pos": "11.72, 2.99, 4999.27"
         },
         {
           "label": "To North 2200 Stairway",
           "dest": "/n2200s",
-          "pos": [-2014.57, 18.32, 4574.30]
+          "pos": "-2014.57, 18.32, 4574.30"
         },
         {
           "label": "To North Exterior",
           "dest": "/north-outside",
-          "pos": [-4968.24, -366.65, 331.10]
+          "pos": "-4968.24, -366.65, 331.10"
         }
       ]
     },
@@ -463,17 +463,17 @@
         {
           "label": "To North 1800 Stairway",
           "dest": "/n1800s",
-          "pos": [89.34, -160.05, -4989.03]
+          "pos": "89.34, -160.05, -4989.03"
         },
         {
           "label": "To Civil Engineering Lab",
           "dest": "/n1200s",
-          "pos": [-1961.64, -452.44, -4571.28]
+          "pos": "-1961.64, -452.44, -4571.28"
         },
         {
           "label": "To AM Lab",
           "dest": "/metal-am",
-          "pos": [-1541.88, -271.19, 4745.11]
+          "pos": "-1541.88, -271.19, 4745.11"
         }
       ]
     },
@@ -486,12 +486,12 @@
         {
           "label": "To North 1800 Hallway",
           "dest": "/n1800",
-          "pos": [4990.41, -131.66, -84.21]
+          "pos": "4990.41, -131.66, -84.21"
         },
         {
           "label": "To North 1200 Stairway",
           "dest": "/n1200s",
-          "pos": [-55.40, -89.25, -4993.59]
+          "pos": "-55.40, -89.25, -4993.59"
         }
       ]
     },
@@ -504,17 +504,17 @@
         {
           "label": "To SMAB Lab",
           "dest": "/smab1",
-          "pos": [4981.28, -224.46, 188.88]
+          "pos": "4981.28, -224.46, 188.88"
         },
         {
           "label": "To North 2600 Stairway",
           "dest": "/n2600s",
-          "pos": [-1172.06, -242.16, 4845.40]
+          "pos": "-1172.06, -242.16, 4845.40"
         },
         {
           "label": "To North 1200 Stairway",
           "dest": "/n1200s",
-          "pos": [-961.86, -2176.49, 4392.68]
+          "pos": "-961.86, -2176.49, 4392.68"
         }
       ]
     },
@@ -527,12 +527,12 @@
         {
           "label": "To North 2600 Stairway",
           "dest": "/n2600s",
-          "pos": [4973.57, -124.13, -411.29]
+          "pos": "4973.57, -124.13, -411.29"
         },
         {
           "label": "to CEDC Lab",
           "dest": "/cedc-lab",
-          "pos": [244.09, -494.92, 4959.65]
+          "pos": "244.09, -494.92, 4959.65"
         }
       ]
     },
@@ -545,12 +545,12 @@
         {
           "label": "To North 2600 Hallway",
           "dest": "/n2600",
-          "pos": [-4987.43, -127.63, -144.26]
+          "pos": "-4987.43, -127.63, -144.26"
         },
         {
           "label": "To North 2200 Stairway",
           "dest": "/n2200s",
-          "pos": [229.29, -106.37, 4983.80]
+          "pos": "229.29, -106.37, 4983.80"
         }
       ]
     },
@@ -563,17 +563,17 @@
         {
           "label": "To North 2200 Stairway",
           "dest": "/n2200s",
-          "pos": [4948.88, -464.95, -517.29]
+          "pos": "4948.88, -464.95, -517.29"
         },
         {
           "label": "To SMAB Lab 2",
           "dest": "/smab2",
-          "pos": [3849.59, -1420.84, 2847.62]
+          "pos": "3849.59, -1420.84, 2847.62"
         },
         {
           "label": "To SMAB Lab 2",
           "dest": "/smab3",
-          "pos": [-4811.91, -1335.83, 45.58]
+          "pos": "-4811.91, -1335.83, 45.58"
         }
       ]
     },
@@ -586,12 +586,12 @@
         {
           "label": "To SMAB Lab 1",
           "dest": "/smab1",
-          "pos": [245.85, -1066.56, -4868.99]
+          "pos": "245.85, -1066.56, -4868.99"
         },
         {
           "label": "To SMAB Lab 3",
           "dest": "/smab3",
-          "pos": [-2601.32, -758.46, -4194.37]
+          "pos": "-2601.32, -758.46, -4194.37"
         }
       ]
     },
@@ -604,12 +604,12 @@
         {
           "label": "To SMAB Lab 1",
           "dest": "/smab1",
-          "pos": [4030.28, -2021.93, -2141.24]
+          "pos": "4030.28, -2021.93, -2141.24"
         },
         {
           "label": "To SMAB Lab 2",
           "dest": "/smab2",
-          "pos": [4950.34, -678.81, -6.36]
+          "pos": "4950.34, -678.81, -6.36"
         }
       ]
     },
@@ -622,12 +622,12 @@
         {
           "label": "To North Building Exterior",
           "dest": "/north-outside",
-          "pos": [-2480.40, -84.95, -4336.37]
+          "pos": "-2480.40, -84.95, -4336.37"
         },
         {
           "label": "To Lawrence Street",
           "dest": "/lawrence-street",
-          "pos": [1622.22, 111.63, 4720.98]
+          "pos": "1622.22, 111.63, 4720.98"
         }
       ]
     },
@@ -640,22 +640,22 @@
         {
           "label": "To CMTC",
           "dest": "/cmtc",
-          "pos": [-4816.45, 129.20, -1297.22]
+          "pos": "-4816.45, 129.20, -1297.22"
         },
         {
           "label": "To Tivoli Quad",
           "dest": "/tiv-quad",
-          "pos": [-4976.00, 209.75, 300.67]
+          "pos": "-4976.00, 209.75, 300.67"
         },
         {
           "label": "To CIDE",
           "dest": "/cide",
-          "pos": [4990.83, 34.00, -149.41]
+          "pos": "4990.83, 34.00, -149.41"
         },
         {
           "label": "To Tivoli Square",
           "dest": "/tiv-square",
-          "pos": [-4258.38, 157.27, 2599.15]
+          "pos": "-4258.38, 157.27, 2599.15"
         }
       ]
     },
@@ -668,17 +668,17 @@
         {
           "label": "To CMTC",
           "dest": "/cmtc",
-          "pos": [-675.62, 157.50, 4942.12]
+          "pos": "-675.62, 157.50, 4942.12"
         },
         {
           "label": "To Tivoli Square",
           "dest": "/tiv-square",
-          "pos": [-4420.40, 114.23, 2312.96]
+          "pos": "-4420.40, 114.23, 2312.96"
         },
         {
           "label": "To Spruce Parking",
           "dest": "/spruce",
-          "pos": [4457.89, -33.86, 2246.32]
+          "pos": "4457.89, -33.86, 2246.32"
         }
       ]
     },
@@ -691,22 +691,22 @@
         {
           "label": "To CMTC",
           "dest": "/cmtc",
-          "pos": [1895.18, 252.90, -4610.26]
+          "pos": "1895.18, 252.90, -4610.26"
         },
         {
           "label": "To Tivoli Quad",
           "dest": "/tiv-quad",
-          "pos": [71.03, -126.69, -4991.30]
+          "pos": "71.03, -126.69, -4991.30"
         },
         {
           "label": "To Spruce Parking",
           "dest": "/spruce",
-          "pos": [4972.16, -63.04, -484.01]
+          "pos": "4972.16, -63.04, -484.01"
         },
         {
           "label": "To Campus Center ",
           "dest": "/center",
-          "pos": [-249.31, 59.96, 4984.58]
+          "pos": "-249.31, 59.96, 4984.58"
         }
       ]
     }

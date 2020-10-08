@@ -45,18 +45,23 @@
           <div class="w3-xlarge w3-center" style="background-color: #cfb87c;">
             CU Denver as a part of Auraria Campus
           </div>
-          <% locations.forEach(function(location, i){ %>
-            <a href="<%= location.url %>">
-              <div class="w3-row w3-margin w3-white w3-round" style="width: 100%;">
-                <div class="w3-container w3-col w3-large border" style="width:50px">
-                  <%= (i + 1) %>
-                </div>
-                <div class="w3-container w3-rest">
-                  <%= location.name %>
-                </div>
-              </div>
-            </a>
-          <% }) %>
+          <%
+            var c = 0;
+            locations.forEach(function(location){
+              if(location.map != null){
+                c++; %>
+                <a href="<%= location.url %>">
+                  <div class="w3-row w3-margin w3-white w3-round" style="width: 95%;">
+                    <div class="w3-container w3-col w3-large border" style="width:50px">
+                      <%= c %>
+                    </div>
+                    <div class="w3-container w3-rest">
+                      <%= location.name %>
+                    </div>
+                  </div>
+                </a>
+          <%  }
+            }); %>
         </div>
         <div class="w3-center">
           <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -67,14 +72,19 @@
       <div class="w3-display-bottomright w3-container" style="width:500px; background: rgba(200, 200, 200, 0.75);">
         <img src="/img/ui/ucd_logo.png" alt="" style="width: 100%;">
       </div>
-      <% pins.forEach(function(pin){ %>
-        <a href="<%= pin.dest %>" style="position: absolute; top: <%= pin.top %>%; left: <%= pin.left %>%; transform: translate( -50%, -50% );">
-          <div class="w3-container w3-white border w3-tooltip">
-            <%= pin.number %>
-            <span style="position:absolute; left:0; bottom:18px; z-index:1000;" class="w3-text w3-tag"><%= pin.name %></span>
-          </div>
-        </a>
-      <% }); %>
+      <%
+        var c = 0;
+        locations.forEach(function(location){
+          if(location.map != null){
+            c++; %>
+            <a href="<%= location.url %>" style="position: absolute; top: <%= location.map.top %>%; left: <%= location.map.left %>%; transform: translate( -50%, -50% );">
+              <div class="w3-container w3-white border w3-tooltip">
+                <%= c %>
+                <span style="position:absolute; left:0; bottom:18px; z-index:1000;" class="w3-text w3-tag"><%= location.name %></span>
+              </div>
+            </a>
+      <%  }
+        }); %>
     </div>
     <div class="w3-hide-large w3-white">
       <h1>Locations:</h1>
