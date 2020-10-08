@@ -205,7 +205,13 @@
       "name": "INWORKS 1",
       "url": "/inworks1",
       "image": "img/locations/inworks_1_1.JPG",
-      "tooltips": [],
+      "tooltips": [
+        {
+          "header": "INWORKS Denver",
+          "body": "<iframe style='width:100%;' src='https://www.youtube.com/embed/1vz1wpdOXr8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+          "pos": [-4568.29, -1431.57, 1422.25]
+        }
+      ],
       "paths": [
         {
           "label": "To Lawrence Street",
