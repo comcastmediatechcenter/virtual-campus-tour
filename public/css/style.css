@@ -1,3 +1,17 @@
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("/css/HelveticaNeueLTStd-Lt.otf");
+}
+
+@font-face {
+  font-family: HelveticaNeueBold;
+  src: url("/css/HelveticaNeueLTStd-Bd.otf");
+}
+
+html * {
+  font-family: HelveticaNeue !important;
+}
+
 .tooltip {
   max-width: 500px;
   max-height: 600px;
@@ -16,4 +30,19 @@
   width:auto;
   background: #cfb87c;
   text-align: left;
+  font-family: HelveticaNeueBold !important;
+}
+
+.map-background {
+  background: url("/img/map.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.border {
+  border-style: solid;
+  border-color: #cfb87c;
+  border-radius: 3px;
 }

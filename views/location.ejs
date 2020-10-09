@@ -34,16 +34,18 @@
     <% if(location.tooltips != null) location.tooltips.forEach(function(tt, i){ %>
       <div id="tt<%= i %>" style="display:none" class="tooltip">
         <header class="tooltip-header">
-          <h1><%= tt.header %></h1>
+          <b><h1><%= tt.header %></h1></b>
         </header>
-        <%- tt.body %>
+        <div class="w3-padding">
+          <%- tt.body %>
+        </div>
       </div>
     <% }) %>
     <div class="w3-display-container">
       <a href="/">
         <img src="img/ui/home.png" alt="" class="w3-display-topleft w3-padding-small w3-image" style="max-width:40%;">
       </a>
-      <img src="img/ui/logo.png" alt="" class="w3-display-topright w3-padding-small w3-image" onclick="window.location.href = '#'; " style="max-width:40%;">
+      <img src="img/ui/logo.png" alt="" class="w3-display-topright w3-padding-small w3-image" onclick="window.location.href = 'https://engineering.ucdenver.edu/'; " style="max-width:40%;">
       <script src="./js/three.min.js"></script>
       <script src="./js/panolens.min.js"></script>
       <script>

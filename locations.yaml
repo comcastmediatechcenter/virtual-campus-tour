@@ -27,6 +27,9 @@ locations:
   image: img/locations/cedc_lab1.JPG
   map:
   tooltips:
+  - header: Engineering Student Lab
+    body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
+    pos: "4318.33, 39.34, -2515.33"
   paths:
   - label: To North 2600 Hallway
     dest: "/n2600"
@@ -42,6 +45,9 @@ locations:
   image: img/locations/cedc_lounge2.JPG
   map:
   tooltips:
+  - header: Engineering Student Lounge
+    body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
+    pos: "2571.47, 110.51, 4278.55"
   paths:
   - label: To North 2600 Hallway
     dest: "/n2600"
@@ -79,6 +85,9 @@ locations:
     left: 35
     top: 80
   tooltips:
+  - header: The Center for Inclusive Design and Engineering (CIDE)
+    body: "The Center for Inclusive Design and Engineering (CIDE) envisions a world where everyone is engaged in life without boundaries. CIDE believes technology, innovation and collaboration can make this a reality for individuals with disabilities. The Center includes ample room to learn, conduct research and innovate. CIDE’s four locations offer state of the art research space and classrooms to provide students an experience grounded in excellence, focused on accelerating applied transdisciplinary technology research and innovation. The surrounding dual campus’ combine the energy of an urban downtown with the opportunities afforded by a world class medical center; all in a state that attracts the biggest names in technology, medicine, and design."
+    pos: "-4744.32, -1489.16, 502.50"
   paths:
   - label: To Spruce Parking Lot
     dest: "/spruce"
@@ -93,6 +102,9 @@ locations:
     left: 52
     top: 55
   tooltips:
+  - header: Structures Lab
+    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
+    pos: "-1499.92, -410.36, 4749.24"
   paths:
   - label: To Civil Engineering Lab 4
     dest: "/civil4"
@@ -111,6 +123,9 @@ locations:
   image: img/locations/civil_2_1.JPG
   map:
   tooltips:
+  - header: Structures Lab
+    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
+    pos: "-1818.16, -384.89, -4634.28"
   paths:
   - label: To Civil Engineering Lab 4
     dest: "/civil4"
@@ -129,6 +144,9 @@ locations:
   image: img/locations/civil_3_2.JPG
   map:
   tooltips:
+  - header: Structures Lab
+    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
+    pos: "645.43, -331.85, -4939.98"
   paths:
   - label: To Civil Engineering Lab 2
     dest: "/civil2"
@@ -141,6 +159,9 @@ locations:
   image: img/locations/civil_4_2.JPG
   map:
   tooltips:
+  - header: Structures Lab
+    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
+    pos: "2535.54, -536.72, -4268.34"
   paths:
   - label: To Civil Engineering Lab 2
     dest: "/civil2"
@@ -158,6 +179,9 @@ locations:
     left: 43
     top: 53
   tooltips:
+  - header: CMTC
+    body: "As Design Innovation, experiential learning, and Maker-space studio, the Comcast Media and Technology Center (CMTC) represents the apex of Engineering, Design, & Computing and Arts & Media. The CMTC is designed to enable continuous evolution and modular repurposing for different team activities. Wheeled furniture, sliding room dividers, and whiteboard paint make the CMTC a genuinely versatile space, including design team collaboration, student organization activities, model making with 3D printing and laser cutting; open space for prototyping or demonstrating concepts; formal conference room space; individual digital workstations, and more."
+    pos: "-2269.07, -210.72, 4438.51"
   paths:
   - label: To Tivoli Quad
     dest: "/tiv-quad"
@@ -183,6 +207,12 @@ locations:
       frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media;
       gyroscope; picture-in-picture' allowfullscreen></iframe>"
     pos: "-4568.29, -1431.57, 1422.25"
+  - header: INWORKS Denver
+    body: "Inworks, as part of the College of Engineering, Design & Computing, is an innovation initiative of the University of Colorado Denver | Anschutz Medical Campus. A home for creators, thinkers, designers, and makers, Inworks represents collaborative community of learners and leaders committed to solving humanity’s most pressing problems. In two state-of-the-art prototyping labs, Inworks draws on expertise from many disciplines to create unique solutions to real-world challenges. At Inworks, faculty, students, and external partners learn and teach through making, but Inworks doesn’t just make things – they make them matter."
+    pos: "-3486.60, -633.59, -3512.68"
+  - header: INWORKS Denver
+    body: "Inworks is a dual campus innovation initiative that fosters collaboration among faculty, researchers, students, and community members. When you take an Inworks course, the process of innovation is demystified. Inside their prototyping labs, you can learn to 3D print, solder a circuit, or grow a biomaterial. Because it’s important to make things that matter, you’ll learn the human-centered design process; it will guide you as you move from problem to prototype. Students of all majors will find a place here."
+    pos: "3197.67, -638.67, 3778.28"
   paths:
   - label: To Lawrence Street
     dest: "/lawrence-street"
@@ -207,6 +237,9 @@ locations:
   image: img/locations/inworks_2_2.JPG
   map:
   tooltips:
+  - header: INWORKS Denver
+    body: "Inworks, as part of the College of Engineering, Design & Computing, is an innovation initiative of the University of Colorado Denver | Anschutz Medical Campus. A home for creators, thinkers, designers, and makers, Inworks represents collaborative community of learners and leaders committed to solving humanity’s most pressing problems. In two state-of-the-art prototyping labs, Inworks draws on expertise from many disciplines to create unique solutions to real-world challenges. At Inworks, faculty, students, and external partners learn and teach through making, but Inworks doesn’t just make things – they make them matter."
+    pos: "-3386.54, -415.15, -3649.25"
   paths:
   - label: To INWORKS 1
     dest: "/inworks1"
@@ -219,6 +252,9 @@ locations:
   image: img/locations/inworks_3_1.JPG
   map:
   tooltips:
+  - header: INWORKS Denver
+    body: "Inworks, as part of the College of Engineering, Design & Computing, is an innovation initiative of the University of Colorado Denver | Anschutz Medical Campus. A home for creators, thinkers, designers, and makers, Inworks represents collaborative community of learners and leaders committed to solving humanity’s most pressing problems. In two state-of-the-art prototyping labs, Inworks draws on expertise from many disciplines to create unique solutions to real-world challenges. At Inworks, faculty, students, and external partners learn and teach through making, but Inworks doesn’t just make things – they make them matter."
+    pos: "-3912.23, 405.33, -3076.08"
   paths:
   - label: To INWORKS 1
     dest: "/inworks1"
@@ -231,6 +267,9 @@ locations:
   image: img/locations/inworks_4_3.JPG
   map:
   tooltips:
+  - header: INWORKS Denver
+    body: "Inworks, as part of the College of Engineering, Design & Computing, is an innovation initiative of the University of Colorado Denver | Anschutz Medical Campus. A home for creators, thinkers, designers, and makers, Inworks represents collaborative community of learners and leaders committed to solving humanity’s most pressing problems. In two state-of-the-art prototyping labs, Inworks draws on expertise from many disciplines to create unique solutions to real-world challenges. At Inworks, faculty, students, and external partners learn and teach through making, but Inworks doesn’t just make things – they make them matter."
+    pos: "-3781.79, 76.81, -3259.28"
   paths:
   - label: To INWORKS 1
     dest: "/inworks1"
@@ -263,6 +302,9 @@ locations:
     left: 65
     top: 45
   tooltips:
+  - header: Mac and PC Labs
+    body: "In the Computer Science Mac and PC labs, students have access to innovative technology to create the next generation of software for a variety of operating systems. Recently upgraded in the summer of 2019 with brand new PC's and GPU's, these labs are where students can come to study, collaborate, and innovate. With over 100 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection."
+    pos: "-2679.07, -333.92, -4198.22"
   paths:
   - label: To Lawrence Street
     dest: "/lawrence-street"
@@ -309,6 +351,9 @@ locations:
     left: 55
     top: 95
   tooltips:
+  - header: Magnetic Materials Lab
+    body: "This new laboratory, funded by the Office of Naval Research, allows electrical engineering department chair Stephen Gedney and his team to solidify the laws and physical properties of ferromagnetic materials (materials that have a high susceptibility to magnetization) and to develop physics-based mathematical models that describe them. While at sea, naval vessels endure tremendous changes in magnetic or mechanical stress encountered during maneuvering, from changing wave states and temperature variations, as well from the large changes in hydrostatic pressures experienced by underwater vehicles. The goal of this research facility is to be able to predict the magnetic state of a ship given the ship’s location, movement, stress, and thermal history."
+    pos: "-4847.97, -478.36, 1100.38"
   paths:
   - label: To Boulder Creek Building
     dest: "/boulder"
@@ -324,6 +369,9 @@ locations:
   image: img/locations/magnet_2_1.JPG
   map:
   tooltips:
+  - header: Magnetic Materials Lab
+    body: "This new laboratory, funded by the Office of Naval Research, allows electrical engineering department chair Stephen Gedney and his team to solidify the laws and physical properties of ferromagnetic materials (materials that have a high susceptibility to magnetization) and to develop physics-based mathematical models that describe them. While at sea, naval vessels endure tremendous changes in magnetic or mechanical stress encountered during maneuvering, from changing wave states and temperature variations, as well from the large changes in hydrostatic pressures experienced by underwater vehicles. The goal of this research facility is to be able to predict the magnetic state of a ship given the ship’s location, movement, stress, and thermal history."
+    pos: "-2261.69, -2379.35, 3763.03"
   paths:
   - label: To Magnetics Lab 1
     dest: "/maglab1"
@@ -381,7 +429,7 @@ locations:
   image: img/locations/north1200_stairs_1.JPG
   map:
     left: 55
-    top: 66
+    top: 60
   tooltips:
   paths:
   - label: To North 1200 Hallway
