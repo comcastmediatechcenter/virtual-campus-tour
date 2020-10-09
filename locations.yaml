@@ -1,201 +1,7 @@
 ---
 locations:
 
-- name: Boulder Creek Building
-  url: "/boulder"
-  image: img/locations/boulder_1.JPG
-  map:
-  tooltips:
-  - header: Ryan
-    body: "<h1> Woah </h1>"
-    pos: "-659.32, -636.21, 4906.19"
-  - header: Two guys
-    body: Theyre delievering things. Look at them
-    pos: "-4454.77, -231.33, -2235.39"
-  paths:
-  - label: 'To Campus Center '
-    dest: "/center"
-    pos: "-3438.43, -86.01, -3618.17"
-  - label: To Magnetics Lab
-    dest: "/maglab1"
-    pos: 3758.77, -220.49, -3278.75
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: CEDC Lab
-  url: "/cedc-lab"
-  image: img/locations/cedc_lab1.JPG
-  map:
-  tooltips:
-  - header: Engineering Student Lab
-    body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
-    pos: "4318.33, 39.34, -2515.33"
-  paths:
-  - label: To North 2600 Hallway
-    dest: "/n2600"
-    pos: "-2534.89, -784.64, -4233.58"
-  - label: To CEDC Lounge
-    dest: "/cedc-lounge"
-    pos: 3102.40, -377.95, -3893.63
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: CEDC Lounge
-  url: "/cedc-lounge"
-  image: img/locations/cedc_lounge2.JPG
-  map:
-  tooltips:
-  - header: Engineering Student Lounge
-    body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
-    pos: "2571.47, 110.51, 4278.55"
-  paths:
-  - label: To North 2600 Hallway
-    dest: "/n2600"
-    pos: "-2841.10, -278.77, 4095.57"
-  - label: To CEDC Lab
-    dest: "/cedc-lab"
-    pos: 1386.27, -133.54, 4792.41
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: Campus Center
-  url: "/center"
-  image: img/locations/center_1.JPG
-  map:
-    left: 49
-    top: 66
-  tooltips:
-  paths:
-  - label: To North Building Exterior
-    dest: "/north-outside"
-    pos: "-4578.25, -28.76, -2003.13"
-  - label: To Tivoli Square
-    dest: "/tiv-square"
-    pos: 2084.11, -70.63, -4538.92
-  - label: To Boulder Creek Building
-    dest: "/boulder"
-    pos: "-2032.51, 77.62, 4564.91"
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: CIDE
-  url: "/cide"
-  image: img/locations/cide2.JPG
-  map:
-    left: 35
-    top: 80
-  tooltips:
-  - header: The Center for Inclusive Design and Engineering (CIDE)
-    body: "The Center for Inclusive Design and Engineering (CIDE) envisions a world where everyone is engaged in life without boundaries. CIDE believes technology, innovation and collaboration can make this a reality for individuals with disabilities. The Center includes ample room to learn, conduct research and innovate. CIDE’s four locations offer state of the art research space and classrooms to provide students an experience grounded in excellence, focused on accelerating applied transdisciplinary technology research and innovation. The surrounding dual campus’ combine the energy of an urban downtown with the opportunities afforded by a world class medical center; all in a state that attracts the biggest names in technology, medicine, and design."
-    pos: "-4744.32, -1489.16, 502.50"
-  paths:
-  - label: To Spruce Parking Lot
-    dest: "/spruce"
-    pos: 4963.84, -389.59, -397.96
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: Civil Engineering Lab 1
-  url: "/civil1"
-  image: img/locations/civil_1_1.JPG
-  map:
-    left: 52
-    top: 55
-  tooltips:
-  - header: Structures Lab
-    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
-    pos: "-1499.92, -410.36, 4749.24"
-  paths:
-  - label: To Civil Engineering Lab 4
-    dest: "/civil4"
-    pos: "-4223.69, -520.06, 2607.90"
-  - label: To Civil Engineering Lab 2
-    dest: "/civil2"
-    pos: 255.51, -692.72, 4935.64
-  - label: To North 1800 Hallway
-    dest: "/n1800"
-    pos: "-171.86, -789.35, -4928.01"
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: Civil Engineering Lab 2
-  url: "/civil2"
-  image: img/locations/civil_2_1.JPG
-  map:
-  tooltips:
-  - header: Structures Lab
-    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
-    pos: "-1818.16, -384.89, -4634.28"
-  paths:
-  - label: To Civil Engineering Lab 4
-    dest: "/civil4"
-    pos: "-3140.97, -453.35, -3852.38"
-  - label: To Civil Engineering Lab 1
-    dest: "/civil1"
-    pos: 166.09, -352.43, -4977.45
-  - label: To Civil Engineering Lab 3
-    dest: "/civil3"
-    pos: "-633.80, -963.30, 4856.34"
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: Civil Engineering Lab 3
-  url: "/civil3"
-  image: img/locations/civil_3_2.JPG
-  map:
-  tooltips:
-  - header: Structures Lab
-    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
-    pos: "645.43, -331.85, -4939.98"
-  paths:
-  - label: To Civil Engineering Lab 2
-    dest: "/civil2"
-    pos: 1794.32, -619.15, -4614.40
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: Civil Engineering Lab 4
-  url: "/civil4"
-  image: img/locations/civil_4_2.JPG
-  map:
-  tooltips:
-  - header: Structures Lab
-    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
-    pos: "2535.54, -536.72, -4268.34"
-  paths:
-  - label: To Civil Engineering Lab 2
-    dest: "/civil2"
-    pos: 4138.58, -490.88, -2745.30
-  - label: To Civil Engineering Lab 1
-    dest: "/civil1"
-    pos: 468.02, -667.26, -4927.51
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: CMTC
-  url: "/cmtc"
-  image: img/locations/cmtc2.JPG
-  map:
-    left: 43
-    top: 53
-  tooltips:
-  - header: CMTC
-    body: "As Design Innovation, experiential learning, and Maker-space studio, the Comcast Media and Technology Center (CMTC) represents the apex of Engineering, Design, & Computing and Arts & Media. The CMTC is designed to enable continuous evolution and modular repurposing for different team activities. Wheeled furniture, sliding room dividers, and whiteboard paint make the CMTC a genuinely versatile space, including design team collaboration, student organization activities, model making with 3D printing and laser cutting; open space for prototyping or demonstrating concepts; formal conference room space; individual digital workstations, and more."
-    pos: "-2269.07, -210.72, 4438.51"
-  paths:
-  - label: To Tivoli Quad
-    dest: "/tiv-quad"
-    pos: "-4660.30, -296.64, -1760.05"
-  - label: To Tivoli Square
-    dest: "/tiv-square"
-    pos: "-4860.04, -290.42, -1110.08"
-  - label: To Spruce Parking Lot
-    dest: "/spruce"
-    pos: 4159.67, -522.44, -2705.97
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: INWORKS 1
+- name: Inworks CU Denver
   url: "/inworks1"
   image: img/locations/inworks_1_1.JPG
   map:
@@ -232,7 +38,7 @@ locations:
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: INWORKS 2
+- name: Inworks CU Denver 2
   url: "/inworks2"
   image: img/locations/inworks_2_2.JPG
   map:
@@ -247,7 +53,7 @@ locations:
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: INWORKS 3
+- name: Inworks CU Denver 3
   url: "/inworks3"
   image: img/locations/inworks_3_1.JPG
   map:
@@ -262,7 +68,7 @@ locations:
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: INWORKS 4
+- name: Inworks CU Denver 4
   url: "/inworks4"
   image: img/locations/inworks_4_3.JPG
   map:
@@ -277,25 +83,7 @@ locations:
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: Lawrence Street
-  url: "/lawrence-street"
-  image: img/locations/lawrence_1.JPG
-  map:
-  tooltips:
-  paths:
-  - label: To Lawrence Street Labs
-    dest: "/lawrence-labs"
-    pos: "-2465.65, -74.82, -4344.33"
-  - label: To INWORKS
-    dest: "/inworks1"
-    pos: 4734.09, -63.48, 1593.34
-  - label: To Speer
-    dest: "/speer"
-    pos: "-4972.42, -86.45, -461.37"
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: Lawrence Street Labs
+- name: Mac and PC Computer Science Labs
   url: "/lawrence-labs"
   image: img/locations/lawrence_lab1.JPG
   map:
@@ -309,6 +97,218 @@ locations:
   - label: To Lawrence Street
     dest: "/lawrence-street"
     pos: "-951.09, -382.86, 4889.54"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Comcast Media and Technology Center
+  url: "/cmtc"
+  image: img/locations/cmtc2.JPG
+  map:
+    left: 43
+    top: 53
+  tooltips:
+  - header: CMTC
+    body: "As Design Innovation, experiential learning, and Maker-space studio, the Comcast Media and Technology Center (CMTC) represents the apex of Engineering, Design, & Computing and Arts & Media. The CMTC is designed to enable continuous evolution and modular repurposing for different team activities. Wheeled furniture, sliding room dividers, and whiteboard paint make the CMTC a genuinely versatile space, including design team collaboration, student organization activities, model making with 3D printing and laser cutting; open space for prototyping or demonstrating concepts; formal conference room space; individual digital workstations, and more."
+    pos: "-2269.07, -210.72, 4438.51"
+  paths:
+  - label: To Tivoli Quad
+    dest: "/tiv-quad"
+    pos: "-4660.30, -296.64, -1760.05"
+  - label: To Tivoli Square
+    dest: "/tiv-square"
+    pos: "-4860.04, -290.42, -1110.08"
+  - label: To Spruce Parking Lot
+    dest: "/spruce"
+    pos: 4159.67, -522.44, -2705.97
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Smart Materials and Biomechanics(SMAB) Lab
+  url: "/smab1"
+  image: img/locations/smab_1_3.JPG
+  map:
+    left: 55
+    top: 55
+  tooltips:
+  paths:
+  - label: To North 2200 Stairway
+    dest: "/n2200s"
+    pos: 4948.88, -464.95, -517.29
+  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 2
+    dest: "/smab2"
+    pos: 3849.59, -1420.84, 2847.62
+  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 2
+    dest: "/smab3"
+    pos: "-4811.91, -1335.83, 45.58"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Smart Materials and Biomechanics(SMAB) Lab 2
+  url: "/smab2"
+  image: img/locations/smab_2_3.JPG
+  map:
+  tooltips:
+  paths:
+  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 1
+    dest: "/smab1"
+    pos: 245.85, -1066.56, -4868.99
+  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 3
+    dest: "/smab3"
+    pos: "-2601.32, -758.46, -4194.37"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Smart Materials and Biomechanics(SMAB) Lab 3
+  url: "/smab3"
+  image: img/locations/smab_3_2.JPG
+  map:
+  tooltips:
+  paths:
+  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 1
+    dest: "/smab1"
+    pos: 4030.28, -2021.93, -2141.24
+  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 2
+    dest: "/smab2"
+    pos: 4950.34, -678.81, -6.36
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Structures Lab
+  url: "/civil1"
+  image: img/locations/civil_1_1.JPG
+  map:
+    left: 52
+    top: 55
+  tooltips:
+  - header: Structures Lab
+    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
+    pos: "-1499.92, -410.36, 4749.24"
+  paths:
+  - label: Structures Lab 4
+    dest: "/civil4"
+    pos: "-4223.69, -520.06, 2607.90"
+  - label: Structures Lab 2
+    dest: "/civil2"
+    pos: 255.51, -692.72, 4935.64
+  - label: To North 1800 Hallway
+    dest: "/n1800"
+    pos: "-171.86, -789.35, -4928.01"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Structures Lab 2
+  url: "/civil2"
+  image: img/locations/civil_2_1.JPG
+  map:
+  tooltips:
+  - header: Structures Lab
+    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
+    pos: "-1818.16, -384.89, -4634.28"
+  paths:
+  - label: Structures Lab 4
+    dest: "/civil4"
+    pos: "-3140.97, -453.35, -3852.38"
+  - label: Structures Lab 1
+    dest: "/civil1"
+    pos: 166.09, -352.43, -4977.45
+  - label: Structures Lab 3
+    dest: "/civil3"
+    pos: "-633.80, -963.30, 4856.34"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Structures Lab 3
+  url: "/civil3"
+  image: img/locations/civil_3_2.JPG
+  map:
+  tooltips:
+  - header: Structures Lab
+    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
+    pos: "645.43, -331.85, -4939.98"
+  paths:
+  - label: Structures Lab 2
+    dest: "/civil2"
+    pos: 1794.32, -619.15, -4614.40
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Structures Lab 4
+  url: "/civil4"
+  image: img/locations/civil_4_2.JPG
+  map:
+  tooltips:
+  - header: Structures Lab
+    body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
+    pos: "2535.54, -536.72, -4268.34"
+  paths:
+  - label: Structures Lab 2
+    dest: "/civil2"
+    pos: 4138.58, -490.88, -2745.30
+  - label: Structures Lab 1
+    dest: "/civil1"
+    pos: 468.02, -667.26, -4927.51
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: College of Engineering, Design and Computing Computer Labs
+  url: "/cedc-lab"
+  image: img/locations/cedc_lab1.JPG
+  map:
+  tooltips:
+  - header: Engineering Student Lab
+    body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
+    pos: "4318.33, 39.34, -2515.33"
+  paths:
+  - label: To North 2600 Hallway
+    dest: "/n2600"
+    pos: "-2534.89, -784.64, -4233.58"
+  - label: To Engineering Student Lounge
+    dest: "/cedc-lounge"
+    pos: 3102.40, -377.95, -3893.63
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Engineering Student Lounge
+  url: "/cedc-lounge"
+  image: img/locations/cedc_lounge2.JPG
+  map:
+  tooltips:
+  - header: Engineering Student Lounge
+    body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
+    pos: "2571.47, 110.51, 4278.55"
+  paths:
+  - label: To North 2600 Hallway
+    dest: "/n2600"
+    pos: "-2841.10, -278.77, 4095.57"
+  - label: To College of Engineering, Design and Computing Computer Labs
+    dest: "/cedc-lab"
+    pos: 1386.27, -133.54, 4792.41
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Tivoli Square
+  url: "/tiv-square"
+  image: img/locations/tivoli_square_1.JPG
+  map:
+    left: 47
+    top: 57
+  tooltips:
+  paths:
+  - label: To Comcast Media and Technology Center
+    dest: "/cmtc"
+    pos: 1895.18, 252.90, -4610.26
+  - label: To Tivoli Quad
+    dest: "/tiv-quad"
+    pos: 71.03, -126.69, -4991.30
+  - label: To Spruce Parking
+    dest: "/spruce"
+    pos: 4972.16, -63.04, -484.01
+  - label: 'To Campus Center '
+    dest: "/center"
+    pos: "-249.31, 59.96, 4984.58"
+  - label: To INWORKS Denver
+    dest: "/inworks1"
+    pos: "-4992.00, 168.76, -26.14"
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -344,7 +344,67 @@ locations:
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: Magnetics Lab 1
+- name: North Classroom Atrium
+  url: "/n1200s"
+  image: img/locations/north1200_stairs_1.JPG
+  map:
+    left: 55
+    top: 60
+  tooltips:
+  paths:
+  - label: To North 1200 Hallway
+    dest: "/n1200"
+    pos: 4992.47, -93.45, -73.53
+  - label: To North 1800 Stairway
+    dest: "/n1800s"
+    pos: 11.72, 2.99, 4999.27
+  - label: To North 2200 Stairway
+    dest: "/n2200s"
+    pos: "-2014.57, 18.32, 4574.30"
+  - label: To North Exterior
+    dest: "/north-outside"
+    pos: "-4968.24, -366.65, 331.10"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Campus Center
+  url: "/center"
+  image: img/locations/center_1.JPG
+  map:
+    left: 49
+    top: 66
+  tooltips:
+  paths:
+  - label: To North Building Exterior
+    dest: "/north-outside"
+    pos: "-4578.25, -28.76, -2003.13"
+  - label: To Tivoli Square
+    dest: "/tiv-square"
+    pos: 2084.11, -70.63, -4538.92
+  - label: To Boulder Creek Building
+    dest: "/boulder"
+    pos: "-2032.51, 77.62, 4564.91"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Center for Inclusive Design and Engineering (CIDE)
+  url: "/cide"
+  image: img/locations/cide2.JPG
+  map:
+    left: 35
+    top: 80
+  tooltips:
+  - header: The Center for Inclusive Design and Engineering (CIDE)
+    body: "The Center for Inclusive Design and Engineering (CIDE) envisions a world where everyone is engaged in life without boundaries. CIDE believes technology, innovation and collaboration can make this a reality for individuals with disabilities. The Center includes ample room to learn, conduct research and innovate. CIDE’s four locations offer state of the art research space and classrooms to provide students an experience grounded in excellence, focused on accelerating applied transdisciplinary technology research and innovation. The surrounding dual campus’ combine the energy of an urban downtown with the opportunities afforded by a world class medical center; all in a state that attracts the biggest names in technology, medicine, and design."
+    pos: "-4744.32, -1489.16, 502.50"
+  paths:
+  - label: To Spruce Parking Lot
+    dest: "/spruce"
+    pos: 4963.84, -389.59, -397.96
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Magnetics Materials Laboratory
   url: "/maglab1"
   image: img/locations/magnet_1_1.JPG
   map:
@@ -358,13 +418,13 @@ locations:
   - label: To Boulder Creek Building
     dest: "/boulder"
     pos: 3577.08, -552.01, -3435.84
-  - label: To Magnetics Lab 2
+  - label: Magnetics Materials Laboratory 2
     dest: "/maglab2"
     pos: "-4928.98, -643.45, 493.88"
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: Magnetics Lab 2
+- name: Magnetics Materials Laboratory 2
   url: "/maglab2"
   image: img/locations/magnet_2_1.JPG
   map:
@@ -373,9 +433,48 @@ locations:
     body: "This new laboratory, funded by the Office of Naval Research, allows electrical engineering department chair Stephen Gedney and his team to solidify the laws and physical properties of ferromagnetic materials (materials that have a high susceptibility to magnetization) and to develop physics-based mathematical models that describe them. While at sea, naval vessels endure tremendous changes in magnetic or mechanical stress encountered during maneuvering, from changing wave states and temperature variations, as well from the large changes in hydrostatic pressures experienced by underwater vehicles. The goal of this research facility is to be able to predict the magnetic state of a ship given the ship’s location, movement, stress, and thermal history."
     pos: "-2261.69, -2379.35, 3763.03"
   paths:
-  - label: To Magnetics Lab 1
+  - label: Magnetics Materials Laboratory 1
     dest: "/maglab1"
     pos: 4125.00, -461.69, -2772.55
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Boulder Creek Building
+  url: "/boulder"
+  image: img/locations/boulder_1.JPG
+  map:
+  tooltips:
+  - header: Ryan
+    body: "<h1> Woah </h1>"
+    pos: "-659.32, -636.21, 4906.19"
+  - header: Two guys
+    body: Theyre delievering things. Look at them
+    pos: "-4454.77, -231.33, -2235.39"
+  paths:
+  - label: 'To Campus Center '
+    dest: "/center"
+    pos: "-3438.43, -86.01, -3618.17"
+  - label: To Magnetics Materials Laboratory
+    dest: "/maglab1"
+    pos: 3758.77, -220.49, -3278.75
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Lawrence Street
+  url: "/lawrence-street"
+  image: img/locations/lawrence_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To Mac and PC Computer Science Labs
+    dest: "/lawrence-labs"
+    pos: "-2465.65, -74.82, -4344.33"
+  - label: To INWORKS
+    dest: "/inworks1"
+    pos: 4734.09, -63.48, 1593.34
+  - label: To Speer
+    dest: "/speer"
+    pos: "-4972.42, -86.45, -461.37"
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -424,29 +523,6 @@ locations:
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: North Classroom Atrium
-  url: "/n1200s"
-  image: img/locations/north1200_stairs_1.JPG
-  map:
-    left: 55
-    top: 60
-  tooltips:
-  paths:
-  - label: To North 1200 Hallway
-    dest: "/n1200"
-    pos: 4992.47, -93.45, -73.53
-  - label: To North 1800 Stairway
-    dest: "/n1800s"
-    pos: 11.72, 2.99, 4999.27
-  - label: To North 2200 Stairway
-    dest: "/n2200s"
-    pos: "-2014.57, 18.32, 4574.30"
-  - label: To North Exterior
-    dest: "/north-outside"
-    pos: "-4968.24, -366.65, 331.10"
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
 - name: North 1800 Hallway
   url: "/n1800"
   image: img/locations/north1800_2_1.JPG
@@ -456,7 +532,7 @@ locations:
   - label: To North 1800 Stairway
     dest: "/n1800s"
     pos: 89.34, -160.05, -4989.03
-  - label: To Civil Engineering Lab
+  - label: Structures Lab
     dest: "/civil1"
     pos: "-1961.64, -452.44, -4571.28"
   - label: To Additive Manufacturing Lab
@@ -486,7 +562,7 @@ locations:
   map:
   tooltips:
   paths:
-  - label: To SMAB Lab
+  - label: Smart Materials and Biomechanics(SMAB) Lab Lab
     dest: "/smab1"
     pos: 4981.28, -224.46, 188.88
   - label: To North 2600 Stairway
@@ -507,10 +583,10 @@ locations:
   - label: To North 2600 Stairway
     dest: "/n2600s"
     pos: 4973.57, -124.13, -411.29
-  - label: to CEDC Lab
+  - label: To College of Engineering, Design and Computing Computer Labs
     dest: "/cedc-lab"
     pos: 244.09, -494.92, 4959.65
-  - label: to CEDC Lounge
+  - label: to Engineering Student Lounge
     dest: "/cedc-lounge"
     pos: 4925.87, -305.24, 741.17
 
@@ -528,56 +604,6 @@ locations:
   - label: To North 2200 Stairway
     dest: "/n2200s"
     pos: 229.29, -106.37, 4983.80
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: SMAB Lab 1
-  url: "/smab1"
-  image: img/locations/smab_1_3.JPG
-  map:
-    left: 55
-    top: 55
-  tooltips:
-  paths:
-  - label: To North 2200 Stairway
-    dest: "/n2200s"
-    pos: 4948.88, -464.95, -517.29
-  - label: To SMAB Lab 2
-    dest: "/smab2"
-    pos: 3849.59, -1420.84, 2847.62
-  - label: To SMAB Lab 2
-    dest: "/smab3"
-    pos: "-4811.91, -1335.83, 45.58"
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: SMAB Lab 2
-  url: "/smab2"
-  image: img/locations/smab_2_3.JPG
-  map:
-  tooltips:
-  paths:
-  - label: To SMAB Lab 1
-    dest: "/smab1"
-    pos: 245.85, -1066.56, -4868.99
-  - label: To SMAB Lab 3
-    dest: "/smab3"
-    pos: "-2601.32, -758.46, -4194.37"
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: SMAB Lab 3
-  url: "/smab3"
-  image: img/locations/smab_3_2.JPG
-  map:
-  tooltips:
-  paths:
-  - label: To SMAB Lab 1
-    dest: "/smab1"
-    pos: 4030.28, -2021.93, -2141.24
-  - label: To SMAB Lab 2
-    dest: "/smab2"
-    pos: 4950.34, -678.81, -6.36
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -602,13 +628,13 @@ locations:
   map:
   tooltips:
   paths:
-  - label: To CMTC
+  - label: To Comcast Media and Technology Center
     dest: "/cmtc"
     pos: "-4816.45, 129.20, -1297.22"
   - label: To Tivoli Quad
     dest: "/tiv-quad"
     pos: "-4976.00, 209.75, 300.67"
-  - label: To CIDE
+  - label: To Center for Inclusive Design and Engineering (CIDE)
     dest: "/cide"
     pos: 4990.83, 34.00, -149.41
   - label: To Tivoli Square
@@ -623,7 +649,7 @@ locations:
   map:
   tooltips:
   paths:
-  - label: To CMTC
+  - label: To Comcast Media and Technology Center
     dest: "/cmtc"
     pos: "-675.62, 157.50, 4942.12"
   - label: To Tivoli Square
@@ -632,29 +658,3 @@ locations:
   - label: To Spruce Parking
     dest: "/spruce"
     pos: 4457.89, -33.86, 2246.32
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: Tivoli Square
-  url: "/tiv-square"
-  image: img/locations/tivoli_square_1.JPG
-  map:
-    left: 47
-    top: 57
-  tooltips:
-  paths:
-  - label: To CMTC
-    dest: "/cmtc"
-    pos: 1895.18, 252.90, -4610.26
-  - label: To Tivoli Quad
-    dest: "/tiv-quad"
-    pos: 71.03, -126.69, -4991.30
-  - label: To Spruce Parking
-    dest: "/spruce"
-    pos: 4972.16, -63.04, -484.01
-  - label: 'To Campus Center '
-    dest: "/center"
-    pos: "-249.31, 59.96, 4984.58"
-  - label: To INWORKS Denver
-    dest: "/inworks1"
-    pos: "-4992.00, 168.76, -26.14"
