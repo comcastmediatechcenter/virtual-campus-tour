@@ -1,5 +1,5 @@
 @font-face {
-  font-family: HelveticaNeue;
+  font-family: HelveticaNeueLight;
   src: url("/css/HelveticaNeueLTStd-Lt.otf");
 }
 
@@ -8,8 +8,27 @@
   src: url("/css/HelveticaNeueLTStd-Bd.otf");
 }
 
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("/css/HelveticaNeueLTStd-Md.otf");
+}
+
 html * {
   font-family: HelveticaNeue !important;
+}
+
+.neue-std {
+  font-family: HelveticaNeue !important;
+}
+.neue-bld {
+  font-family: HelveticaNeueBold !important;
+}
+.neue-lt {
+  font-family: HelveticaNeueLight !important;
+}
+
+.frosted {
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .tooltip {
@@ -19,9 +38,6 @@ html * {
   min-height: 250px;
   background: #fff;
   color: #000;
-  border-style: solid;
-  border-color: #cfb87c;
-  border-radius: 3px;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -31,6 +47,13 @@ html * {
   background: #cfb87c;
   text-align: left;
   font-family: HelveticaNeueBold !important;
+}
+.tooltip-header-image {
+  background: url("/img/ui/circuit.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .map-background {

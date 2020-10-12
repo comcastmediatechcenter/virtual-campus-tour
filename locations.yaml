@@ -123,36 +123,42 @@ locations:
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: Smart Materials and Biomechanics(SMAB) Lab
+- name: Smart Materials and Biomechanics (SMAB) Lab
   url: "/smab1"
   image: img/locations/smab_1_3.JPG
   map:
     left: 55
     top: 55
   tooltips:
+  - header: Smart Materials and Biomechanics (SMAB) Lab
+    body: '<iframe style="width:100%;" src="https://www.youtube.com/embed/LXNP2rRglN8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    pos: "14.71, -366.18, 4984.84"
   paths:
   - label: To North 2200 Stairway
     dest: "/n2200s"
     pos: 4948.88, -464.95, -517.29
-  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 2
+  - label: Smart Materials and Biomechanics (SMAB) Lab 2
     dest: "/smab2"
     pos: 3849.59, -1420.84, 2847.62
-  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 2
+  - label: Smart Materials and Biomechanics (SMAB) Lab 3
     dest: "/smab3"
     pos: "-4811.91, -1335.83, 45.58"
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: Smart Materials and Biomechanics(SMAB) Lab 2
+- name: Smart Materials and Biomechanics (SMAB) Lab 2
   url: "/smab2"
   image: img/locations/smab_2_3.JPG
   map:
   tooltips:
+  - header: Smart Materials and Biomechanics (SMAB) Lab
+    body: '<iframe style="width:100%;" src="https://www.youtube.com/embed/LXNP2rRglN8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    pos: "-4886.94, -127.65, -1031.51"
   paths:
-  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 1
+  - label: Smart Materials and Biomechanics (SMAB) Lab Lab 1
     dest: "/smab1"
     pos: 245.85, -1066.56, -4868.99
-  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 3
+  - label: Smart Materials and Biomechanics (SMAB) Lab 3
     dest: "/smab3"
     pos: "-2601.32, -758.46, -4194.37"
 
@@ -163,11 +169,14 @@ locations:
   image: img/locations/smab_3_2.JPG
   map:
   tooltips:
+  - header: Smart Materials and Biomechanics (SMAB) Lab
+    body: '<iframe style="width:100%;" src="https://www.youtube.com/embed/LXNP2rRglN8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    pos: "4752.73, -0.82, 1551.63"
   paths:
-  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 1
+  - label: Smart Materials and Biomechanics (SMAB) Lab 1
     dest: "/smab1"
     pos: 4030.28, -2021.93, -2141.24
-  - label: Smart Materials and Biomechanics(SMAB) Lab Lab 2
+  - label: Smart Materials and Biomechanics (SMAB) Lab 2
     dest: "/smab2"
     pos: 4950.34, -678.81, -6.36
 
@@ -258,6 +267,9 @@ locations:
   - header: Engineering Student Lab
     body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
     pos: "4318.33, 39.34, -2515.33"
+  - header: Engineering Student Lab
+    body: '<iframe style="width:100%;" src="https://www.youtube.com/embed/lginVFTcsfg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    pos: "4338.86, -1090.78, 2212.43"
   paths:
   - label: To North 2600 Hallway
     dest: "/n2600"
@@ -276,6 +288,9 @@ locations:
   - header: Engineering Student Lounge
     body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
     pos: "2571.47, 110.51, 4278.55"
+  - header: Engineering Student Lounge
+    body: '<iframe style="width:100%;" src="https://www.youtube.com/embed/QBPVOCBqi4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    pos: "-4125.80, -714.53, -2716.44"
   paths:
   - label: To North 2600 Hallway
     dest: "/n2600"
@@ -397,6 +412,9 @@ locations:
   - header: The Center for Inclusive Design and Engineering (CIDE)
     body: "The Center for Inclusive Design and Engineering (CIDE) envisions a world where everyone is engaged in life without boundaries. CIDE believes technology, innovation and collaboration can make this a reality for individuals with disabilities. The Center includes ample room to learn, conduct research and innovate. CIDE’s four locations offer state of the art research space and classrooms to provide students an experience grounded in excellence, focused on accelerating applied transdisciplinary technology research and innovation. The surrounding dual campus’ combine the energy of an urban downtown with the opportunities afforded by a world class medical center; all in a state that attracts the biggest names in technology, medicine, and design."
     pos: "-4744.32, -1489.16, 502.50"
+  - header: The Center for Inclusive Design and Engineering (CIDE)
+    body: '<iframe style="width:100%;" src="https://www.youtube.com/embed/JOVjDA_ywk8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    pos: "-4356.26, -731.23, -2326.57"
   paths:
   - label: To Spruce Parking Lot
     dest: "/spruce"

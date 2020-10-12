@@ -32,20 +32,49 @@
   </head>
   <body>
     <% if(location.tooltips != null) location.tooltips.forEach(function(tt, i){ %>
-      <div id="tt<%= i %>" style="display:none" class="tooltip">
-        <header class="tooltip-header">
-          <b><h1><%= tt.header %></h1></b>
-        </header>
+      <div id="tt<%= i %>" style="display:none" class="tooltip w3-round">
+        <div class="tooltip-header-image" style="width: 100%; height: 50px;"></div>
         <div class="w3-padding">
-          <%- tt.body %>
+          <div class="neue-bold w3-xlarge">
+            <%= tt.header %>
+          </div>
+          <div class="neue-lt">
+            <%- tt.body %>
+          </div>
         </div>
       </div>
     <% }) %>
     <div class="w3-display-container">
-      <a href="/">
-        <img src="img/ui/home.png" alt="" class="w3-display-topleft w3-padding-small w3-image" style="max-width:40%;">
-      </a>
-      <img src="img/ui/logo.png" alt="" class="w3-display-topright w3-padding-small w3-image" onclick="window.location.href = 'https://engineering.ucdenver.edu/'; " style="max-width:40%;">
+      <div class="w3-display-topleft">
+        <div class="w3-container w3-padding frosted w3-round w3-margin">
+          <a href="/">
+            <div class="w3-container w3-cell">
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              </svg>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              To Directory
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="w3-display-topright">
+        <div class="w3-container w3-padding frosted w3-round w3-margin">
+          <a href="https://engineering.ucdenver.edu/academics/prospective-student-resources">
+            <div class="w3-container w3-cell">
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-box-arrow-up-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              Application Portal
+            </div>
+          </a>
+        </div>
+      </div>
       <script src="./js/three.min.js"></script>
       <script src="./js/panolens.min.js"></script>
       <script>

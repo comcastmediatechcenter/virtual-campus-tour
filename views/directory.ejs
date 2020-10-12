@@ -24,10 +24,15 @@
   <body style="background-color: black;">
     <div class="w3-display w3-hide-small" style="width:100%;height:100%; overflow:hidden;">
       <img src="/img/map.png" style="width:100%;">
-      <div class="w3-display-topleft w3-padding-small w3-round-xlarge" style="background: rgba(200, 200, 200, 0.75);">
-        <div class="w3-container" style="width:550px; height:250px; overflow:auto;">
-          <div class="w3-xlarge w3-center" style="background-color: #cfb87c;">
-            <b>CEDC as a part of Auraria Campus</b>
+      <div class="w3-display-topleft">
+        <div class="w3-container w3-padding" style="width:550px; height:250px; overflow:auto;">
+          <div class="w3-xlarge frosted w3-round">
+            <div class="neue-bld">
+              CEDC
+            </div>
+            <div class="neue-lt">
+              as a part of Auraria Campus
+            </div>
           </div>
           <%
             var c = 0;
@@ -35,11 +40,11 @@
               if(location.map != null){
                 c++; %>
                 <a href="<%= location.url %>">
-                  <div class="w3-row w3-margin w3-white w3-round" style="width: 95%;">
-                    <div class="w3-container w3-col w3-large border" style="width:50px">
+                  <div class="w3-row w3-margin w3-round frosted" style="width: 95%;">
+                    <div class="w3-container w3-col w3-xlarge neue-bld" style="width:50px">
                       <b><%= c %></b>
                     </div>
-                    <div class="w3-container w3-rest">
+                    <div class="w3-container w3-rest neue-lt">
                       <%= location.name %>
                     </div>
                   </div>
@@ -53,23 +58,47 @@
           </svg>
         </div>
       </div>
-      <div class="w3-display-bottomright w3-container w3-padding-small w3-round-xlarge" style="width:500px; background: rgba(200, 200, 200, 0.75);">
-        <img src="/img/ui/ucd_logo.png" alt="" style="width: 100%;">
-      </div>
       <%
         var c = 0;
         locations.forEach(function(location){
           if(location.map != null){
             c++; %>
             <a href="<%= location.url %>" style="position: absolute; top: <%= location.map.top %>%; left: <%= location.map.left %>%; transform: translate( -50%, -50% );">
-              <div class="w3-container w3-white border w3-tooltip">
+              <div class="w3-container w3-white w3-tooltip w3-round-large">
                 <%= c %>
-                <span style="position:absolute; left:0; bottom:18px; z-index:1000;" class="w3-text w3-tag"><%= location.name %></span>
+                <span style="position:absolute; left:0; bottom:18px; z-index:100;" class="w3-text w3-tag"><%= location.name %></span>
               </div>
             </a>
       <%  }
         }); %>
-      <img src="img/ui/logo.png" alt="" class="w3-display-topright w3-padding-small w3-image" onclick="window.location.href = 'https://engineering.ucdenver.edu/'; " style="max-width:40%;">
+      <div class="w3-display-topright">
+        <div class="w3-container w3-padding frosted w3-round w3-margin">
+          <a href="https://engineering.ucdenver.edu/">
+            <div class="w3-container w3-cell">
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+              </svg>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              To CEDC Homepage
+            </div>
+          </a>
+        </div>
+        <div class="w3-container w3-padding frosted w3-round w3-margin">
+          <a href="https://engineering.ucdenver.edu/academics/prospective-student-resources">
+            <div class="w3-container w3-cell">
+              <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-box-arrow-up-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+              </svg>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+              Application Portal
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
     <div class="w3-hide-large w3-gray">
       <div class="w3-display" style="width: 100%; height: 100%;">
