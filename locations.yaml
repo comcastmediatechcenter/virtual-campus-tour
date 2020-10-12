@@ -4,9 +4,7 @@ locations:
 - name: Inworks CU Denver
   url: "/inworks1"
   image: img/locations/inworks_1_1.JPG
-  map:
-    left: 65
-    top: 40
+  map: "39.746642, -104.999596"
   tooltips:
   - header: INWORKS Denver
     body: "<iframe style='width:100%;' src='https://www.youtube.com/embed/1vz1wpdOXr8'
@@ -86,9 +84,7 @@ locations:
 - name: Mac and PC Computer Science Labs
   url: "/lawrence-labs"
   image: img/locations/lawrence_lab1.JPG
-  map:
-    left: 65
-    top: 45
+  map: "39.746090, -104.999240"
   tooltips:
   - header: Mac and PC Labs
     body: "In the Computer Science Mac and PC labs, students have access to innovative technology to create the next generation of software for a variety of operating systems. Recently upgraded in the summer of 2019 with brand new PC's and GPU's, these labs are where students can come to study, collaborate, and innovate. With over 100 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection."
@@ -103,9 +99,7 @@ locations:
 - name: Comcast Media and Technology Center
   url: "/cmtc"
   image: img/locations/cmtc2.JPG
-  map:
-    left: 43
-    top: 53
+  map: "39.745530, -105.005780"
   tooltips:
   - header: CMTC
     body: "As Design Innovation, experiential learning, and Maker-space studio, the Comcast Media and Technology Center (CMTC) represents the apex of Engineering, Design, & Computing and Arts & Media. The CMTC is designed to enable continuous evolution and modular repurposing for different team activities. Wheeled furniture, sliding room dividers, and whiteboard paint make the CMTC a genuinely versatile space, including design team collaboration, student organization activities, model making with 3D printing and laser cutting; open space for prototyping or demonstrating concepts; formal conference room space; individual digital workstations, and more."
@@ -126,9 +120,7 @@ locations:
 - name: Smart Materials and Biomechanics (SMAB) Lab
   url: "/smab1"
   image: img/locations/smab_1_3.JPG
-  map:
-    left: 55
-    top: 55
+  map: "39.744956, -105.002415"
   tooltips:
   - header: Smart Materials and Biomechanics (SMAB) Lab
     body: '<iframe style="width:100%;" src="https://www.youtube.com/embed/LXNP2rRglN8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
@@ -185,9 +177,7 @@ locations:
 - name: Structures Lab
   url: "/civil1"
   image: img/locations/civil_1_1.JPG
-  map:
-    left: 52
-    top: 55
+  map: "39.744725, -105.002941"
   tooltips:
   - header: Structures Lab
     body: "The Structures Laboratory is equipped to perform state-of-the-art research in the areas of concrete, steel, timber and advanced materials. Research funded by the National Science Foundation, Federal Highway Administration, Colorado Department of Transportation, City and County of Denver, Environmental Protection Agency and other private industry has been conducted to improve the design, construction, analysis and maintenance of buildings, roads, bridges and other structures."
@@ -304,9 +294,7 @@ locations:
 - name: Tivoli Square
   url: "/tiv-square"
   image: img/locations/tivoli_square_1.JPG
-  map:
-    left: 47
-    top: 57
+  map: "39.744889, -105.004818"
   tooltips:
   paths:
   - label: To Comcast Media and Technology Center
@@ -330,9 +318,7 @@ locations:
 - name: Additive Manufacturing Lab (Metal)
   url: "/metal-am"
   image: img/locations/lockheedAM_metal_2.JPG
-  map:
-    left: 52
-    top: 58
+  map: "39.744838, -105.003037"
   tooltips:
   paths:
   - label: To Additive Manufacturing Lab (Plastic)
@@ -362,9 +348,7 @@ locations:
 - name: North Classroom Atrium
   url: "/n1200s"
   image: img/locations/north1200_stairs_1.JPG
-  map:
-    left: 55
-    top: 60
+  map: "39.745028, -105.002007"
   tooltips:
   paths:
   - label: To North 1200 Hallway
@@ -385,9 +369,7 @@ locations:
 - name: Campus Center
   url: "/center"
   image: img/locations/center_1.JPG
-  map:
-    left: 49
-    top: 66
+  map: "39.744341, -105.002873"
   tooltips:
   paths:
   - label: To North Building Exterior
@@ -405,9 +387,7 @@ locations:
 - name: Center for Inclusive Design and Engineering (CIDE)
   url: "/cide"
   image: img/locations/cide2.JPG
-  map:
-    left: 35
-    top: 80
+  map: "39.741657, -105.010393"
   tooltips:
   - header: The Center for Inclusive Design and Engineering (CIDE)
     body: "The Center for Inclusive Design and Engineering (CIDE) envisions a world where everyone is engaged in life without boundaries. CIDE believes technology, innovation and collaboration can make this a reality for individuals with disabilities. The Center includes ample room to learn, conduct research and innovate. CIDE’s four locations offer state of the art research space and classrooms to provide students an experience grounded in excellence, focused on accelerating applied transdisciplinary technology research and innovation. The surrounding dual campus’ combine the energy of an urban downtown with the opportunities afforded by a world class medical center; all in a state that attracts the biggest names in technology, medicine, and design."
@@ -425,9 +405,7 @@ locations:
 - name: Magnetics Materials Laboratory
   url: "/maglab1"
   image: img/locations/magnet_1_1.JPG
-  map:
-    left: 55
-    top: 95
+  map: "39.740877, -105.002024"
   tooltips:
   - header: Magnetic Materials Lab
     body: "This new laboratory, funded by the Office of Naval Research, allows electrical engineering department chair Stephen Gedney and his team to solidify the laws and physical properties of ferromagnetic materials (materials that have a high susceptibility to magnetization) and to develop physics-based mathematical models that describe them. While at sea, naval vessels endure tremendous changes in magnetic or mechanical stress encountered during maneuvering, from changing wave states and temperature variations, as well from the large changes in hydrostatic pressures experienced by underwater vehicles. The goal of this research facility is to be able to predict the magnetic state of a ship given the ship’s location, movement, stress, and thermal history."
