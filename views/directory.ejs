@@ -34,9 +34,18 @@
         }).addTo(map);
 
         var pins = <%- JSON.stringify(locations); %>;
+        var c = 0;
         pins.forEach((pin, i) => {
           if(pin.map != null){
-            var marker = L.marker(JSON.parse("[" + pin.map + "]")).addTo(map);
+            c++; //hAAAAAAAAAAAAAAAAAAAAAA
+            var markerIcon = L.divIcon({
+                                          className: 'customIcon',
+                                          html: '<div class="w3-container w3-medium neue-bld w3-white w3-round w3-cell w3-cell-middle" style="width:40px; height:20px;">' + c +'</div>',
+                                          iconSize: [40, 20],
+                                          iconAnchor: [20, 10]
+                                        });
+
+            var marker = L.marker(JSON.parse("[" + pin.map + "]"), {icon: markerIcon}).addTo(map);
             var popupContents = '<a href="' + pin.url + '"><div class="neue-bld w3-large">' + pin.name + '</div></a>';
 
             marker.bindPopup(popupContents);
