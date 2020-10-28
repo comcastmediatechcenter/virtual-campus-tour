@@ -251,22 +251,52 @@ locations:
 
 - name: College of Engineering, Design and Computing Computer Labs
   url: "/cedc-lab"
-  image: img/locations/cedc_lab1.JPG
+  image: img/locations/cedc_lab2.JPG
   map:
   tooltips:
   - header: Engineering Student Lab
     body: "The Engineering Student Lounge and Computer Lab is a space dedicated to collaborative and independent study spaces for the students in the College of Engineering, Design & Computing. With over 150 software packages to use, the college have provided resources that are easily available to students through the physical space, internet, and remote connection. The current construction shown in this video is for the remodeling of interactive workspaces to encourage student collaboration on projects, assignments, and their own initiatives. The space is made possible, in part, by a generous donation from Trimble software."
-    pos: "4318.33, 39.34, -2515.33"
+    pos: "-3741.71, 113.34, -3306.50"
   - header: Engineering Student Lab
     body: '<iframe style="width:100%;" src="https://www.youtube.com/embed/lginVFTcsfg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     pos: "4338.86, -1090.78, 2212.43"
   paths:
   - label: To North 2600 Hallway
     dest: "/n2600"
-    pos: "-2534.89, -784.64, -4233.58"
+    pos: "-4402.90, -405.74, 2319.78"
   - label: To Engineering Student Lounge
     dest: "/cedc-lounge"
-    pos: 3102.40, -377.95, -3893.63
+    pos: -4430.27, -232.53, -2283.37
+  - label: Trimble Lab 1
+    dest: "/trimble1"
+    pos: 4448.98, -413.40, -2227.33
+  - label: Trimble Lab 2
+    dest: "/trimble2"
+    pos: 4918.10, -306.83, -789.85
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Trimble Lab 1
+  url: "/trimble1"
+  image: img/locations/trimble1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: CEDC Lab
+    dest: "/cedc-lab"
+    pos: -3499.30, -151.66, 3553.67
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Trimble Lab 2
+  url: "/trimble2"
+  image: img/locations/trimble2.JPG
+  map:
+  tooltips:
+  paths:
+  - label: CEDC Lab
+    dest: "/cedc-lab"
+    pos: -2602.29, -81.70, 4259.88
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -440,12 +470,6 @@ locations:
   image: img/locations/boulder_1.JPG
   map:
   tooltips:
-  - header: Ryan
-    body: "<h1> Woah </h1>"
-    pos: "-659.32, -636.21, 4906.19"
-  - header: Two guys
-    body: Theyre delievering things. Look at them
-    pos: "-4454.77, -231.33, -2235.39"
   paths:
   - label: 'To Campus Center '
     dest: "/center"
