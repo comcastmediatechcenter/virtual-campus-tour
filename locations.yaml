@@ -276,30 +276,6 @@ locations:
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
-- name: Trimble Lab 1
-  url: "/trimble1"
-  image: img/locations/trimble1.JPG
-  map:
-  tooltips:
-  paths:
-  - label: CEDC Lab
-    dest: "/cedc-lab"
-    pos: -3499.30, -151.66, 3553.67
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
-- name: Trimble Lab 2
-  url: "/trimble2"
-  image: img/locations/trimble2.JPG
-  map:
-  tooltips:
-  paths:
-  - label: CEDC Lab
-    dest: "/cedc-lab"
-    pos: -2602.29, -81.70, 4259.88
-
-# # # # # # # # # # # # # # # # # # # # # # # # #
-
 - name: Engineering Student Lounge
   url: "/cedc-lounge"
   image: img/locations/cedc_lounge2.JPG
@@ -318,6 +294,30 @@ locations:
   - label: To College of Engineering, Design and Computing Computer Labs
     dest: "/cedc-lab"
     pos: 1386.27, -133.54, 4792.41
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Trimble Lab
+  url: "/trimble1"
+  image: img/locations/trimble1.JPG
+  map: "39.745004, -105.002705"
+  tooltips:
+  paths:
+  - label: CEDC Lab
+    dest: "/cedc-lab"
+    pos: -3499.30, -151.66, 3553.67
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: Trimble Lab 2
+  url: "/trimble2"
+  image: img/locations/trimble2.JPG
+  map:
+  tooltips:
+  paths:
+  - label: CEDC Lab
+    dest: "/cedc-lab"
+    pos: -2602.29, -81.70, 4259.88
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
