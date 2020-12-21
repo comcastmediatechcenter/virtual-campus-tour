@@ -14,8 +14,12 @@ locations.forEach(function(location){
   });
 });
 
-app.get("/", function(req, res){
+app.get("/directory", function(req, res){
   res.render("directory.ejs", {locations: locations});
+});
+
+app.get("/", function(req, res){
+  res.render("splash.ejs");
 });
 
 app.listen(5678, function(){ console.log("Started on port 5678"); });
