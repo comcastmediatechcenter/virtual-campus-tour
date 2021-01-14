@@ -127,7 +127,7 @@ locations:
     pos: "14.71, -366.18, 4984.84"
   paths:
   - label: To North 2200 Stairway
-    dest: "/n2200s"
+    dest: "/n"
     pos: 4948.88, -464.95, -517.29
   - label: Smart Materials and Biomechanics (SMAB) Lab 2
     dest: "/smab2"
@@ -388,7 +388,7 @@ locations:
     dest: "/n1800s"
     pos: 11.72, 2.99, 4999.27
   - label: To North 2200 Stairway
-    dest: "/n2200s"
+    dest: "/n"
     pos: "-2014.57, 18.32, 4574.30"
   - label: To North Exterior
     dest: "/north-outside"
@@ -585,12 +585,15 @@ locations:
   - label: Smart Materials and Biomechanics(SMAB) Lab Lab
     dest: "/smab1"
     pos: 4981.28, -224.46, 188.88
-  - label: To North 2600 Stairway
-    dest: "/n2600s"
+  - label: To North 2400 Stairway
+    dest: "/n2400s"
     pos: "-1172.06, -242.16, 4845.40"
   - label: To North 1200 Stairway
     dest: "/n1200s"
     pos: "-961.86, -2176.49, 4392.68"
+  - label: To North 2000 Stairway
+    dest: "/n2000s"
+    pos: "-405.85, -152.49, -4972.74"
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -609,6 +612,12 @@ locations:
   - label: to Engineering Student Lounge
     dest: "/cedc-lounge"
     pos: 4925.87, -305.24, 741.17
+  - label: To North 2609
+    dest: "/n2609-1"
+    pos: 4311.91, -671.79, -2429.08
+  - label: To North 2613
+    dest: "/n2613"
+    pos: -4989.79, 50.04, -157.26
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -621,8 +630,8 @@ locations:
   - label: To North 2600 Hallway
     dest: "/n2600"
     pos: "-4987.43, -127.63, -144.26"
-  - label: To North 2200 Stairway
-    dest: "/n2200s"
+  - label: To North 2400 Stairway
+    dest: "/n2400s"
     pos: 229.29, -106.37, 4983.80
 
 # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -678,3 +687,252 @@ locations:
   - label: To Spruce Parking
     dest: "/spruce"
     pos: 4457.89, -33.86, 2246.32
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2613
+  url: "/n2613"
+  image: img/locations/north2613_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2600 Hallway
+    dest: "/n2600"
+    pos: "-678.62, -505.13, 4918.82"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2609
+  url: "/n2609-1"
+  image: img/locations/north2609_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2600 Hallway
+    dest: "/n2600"
+    pos: "-1171.63, -238.77, 4845.65"
+  - label: To North 2609 2
+    dest: "/n2609-2"
+    pos: "4965.61, -510.00, -96.24"
+  - label: To North 2609 4
+    dest: "/n2609-4"
+    pos: "-127.11, -792.08, -4929.81"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2609
+  url: "/n2609-2"
+  image: img/locations/north2609_2.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2609 1
+    dest: "/n2609-1"
+    pos: "-4937.35, -783.42, 16.08"
+  - label: To North 2609 3
+    dest: "/n2609-3"
+    pos: "-294.59, -935.81, -4892.44"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2609
+  url: "/n2609-3"
+  image: img/locations/north2609_3.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2609 2
+    dest: "/n2609-2"
+    pos: "19.57, -837.37, 4926.44"
+  - label: To North 2609 4
+    dest: "/n2609-4"
+    pos: "-4840.48, -415.84, -1156.90"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2609
+  url: "/n2609-4"
+  image: img/locations/north2609_4.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2609 3
+    dest: "/n2609-3"
+    pos: "-4877.43, -365.38, -1031.92"
+  - label: To North 2609 1
+    dest: "/n2609-1"
+    pos: "194.98, -655.00, -4943.28"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2400 Hallway
+  url: "/n2400"
+  image: img/locations/north2400_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2408
+    dest: "/n2408-1"
+    pos: "-4979.29, -344.76, -136.61"
+  - label: To North 2404
+    dest: "/n2404-1"
+    pos: "-1029.24, -173.24, 4885.49"
+  - label: To North 2400 Stairway
+    dest: "/n2400s"
+    pos: "-209.74, -70.00, 4986.26"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2400 Stairway
+  url: "/n2400s"
+  image: img/locations/north2600_stairs_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2400 Hallway
+    dest: "/n2400"
+    pos: "-4979.29, -344.76, -136.61"
+  - label: To North 2200 Stairway
+    dest: "/n2200s"
+    pos: "-158.76, -87.83, 4988.23"
+  - label: To North 2600 Stairway
+    dest: "/n2600s"
+    pos: "220.47, -83.70, -4985.16"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2408
+  url: "/n2408-1"
+  image: img/locations/north2408_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2400 Hallway
+    dest: "/n2400"
+    pos: "1153.94, -441.88, -4838.09"
+  - label: To North 2408 2
+    dest: "/n2408-2"
+    pos: "-3608.93, -370.08, -3431.91"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2408
+  url: "/n2408-2"
+  image: img/locations/north2408_2.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2408
+    dest: "/n2408-1"
+    pos: "2799.37, -498.63, -4102.37"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2404
+  url: "/n2404-1"
+  image: img/locations/north2404_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2400 Hallway
+    dest: "/n2400"
+    pos: "-4970.81, -144.18, 448.84"
+  - label: To North 2404
+    dest: "/n2404-2"
+    pos: "4566.18, -943.28, 1776.87"
+  - label: To North 2404
+    dest: "/n2404-3"
+    pos: "235.19, -156.61, 4981.52"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2404
+  url: "/n2404-2"
+  image: img/locations/north2404_2.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2404
+    dest: "/n2404-1"
+    pos: "-4823.73, -792.69, -1044.04"
+  - label: To North 2404
+    dest: "/n2404-3"
+    pos: "-4350.78, -408.11, 2421.44"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2404
+  url: "/n2404-3"
+  image: img/locations/north2404_3.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2400 Hallway
+    dest: "/n2400"
+    pos: "-637.98, -168.10, 4947.66"
+  - label: To North 2404
+    dest: "/n2404-2"
+    pos: "-4409.80, -1205.30, -2016.13"
+  - label: To North 2404
+    dest: "/n2404-1"
+    pos: "-2589.71, -312.83, 4257.23"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2000 Hallway
+  url: "/n2000"
+  image: img/locations/north2000_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2000 Stairs
+    dest: "/n2000s"
+    pos: "4784.62, 47.80, 1428.36"
+  - label: To North 2003
+    dest: "/n2003-1"
+    pos: "4370.38, -233.48, 2400.82"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2000 Stairway
+  url: "/n2000s"
+  image: img/locations/north2000_stairs_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2000 Hallway
+    dest: "/n2000"
+    pos: "89.15, -102.93, -4991.28"
+  - label: To North 2200 Stairway
+    dest: "/n2200s"
+    pos: "4988.82, -10.84, 205.24"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2003
+  url: "/n2003-1"
+  image: img/locations/north2003_1.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2000 Hallway
+    dest: "/n2000"
+    pos: "-3556.49, -387.46, 3483.39"
+  - label: To North 2200 Stairs
+    dest: "/n2003-2"
+    pos: "4949.65, -529.24, -357.36"
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+- name: North 2003
+  url: "/n2003-2"
+  image: img/locations/north2003_2.JPG
+  map:
+  tooltips:
+  paths:
+  - label: To North 2000 Hallway
+    dest: "/n2000"
+    pos: "-4367.23, -232.10, 2407.11"
+  - label: To North 2003
+    dest: "/n2003-1"
+    pos: "-4878.26, -981.68, 391.20"
